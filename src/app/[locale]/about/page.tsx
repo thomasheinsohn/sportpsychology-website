@@ -1,7 +1,7 @@
 import { type Metadata } from 'next'
 import Image from 'next/image'
-import Link from 'next/link'
 import clsx from 'clsx'
+import { Link } from '../../../../navigation'
 
 import { Container } from '@/components/Container'
 import {
@@ -52,8 +52,9 @@ export const metadata: Metadata = {
   description:
     'I’m Spencer Sharp. I live in New York City, where I design the future.',
 }
-
+import { useTranslations } from 'next-intl'
 export default function About() {
+  const t = useTranslations('Index')
   return (
     <Container className="mt-16 sm:mt-32">
       <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
@@ -68,6 +69,7 @@ export default function About() {
           </div>
         </div>
         <div className="lg:order-first lg:row-span-2">
+          <div>{t('title')}</div>
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
             I’m Spencer Sharp. I live in New York City, where I design the
             future.

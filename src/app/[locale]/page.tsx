@@ -1,6 +1,7 @@
 import Image, { type ImageProps } from 'next/image'
-import Link from 'next/link'
 import clsx from 'clsx'
+import { useTranslations } from 'next-intl'
+import { Link } from '../../../navigation'
 
 import { Button } from '@/components/Button'
 import { Card } from '@/components/Card'
@@ -267,11 +268,13 @@ function Photos() {
 
 export default async function Home() {
   let articles = (await getAllArticles()).slice(0, 4)
+  // const t = useTranslations('Index')
 
   return (
     <>
       <Container className="mt-9">
         <div className="max-w-2xl">
+          {/* <h1>{t('title')}</h1> */}
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
             Software designer, founder, and amateur astronaut.
           </h1>

@@ -1,6 +1,6 @@
 import { type Metadata } from 'next'
 
-import { Providers } from '@/app/providers'
+import { Providers } from '@/app/[locale]/providers'
 import { Layout } from '@/components/Layout'
 
 import '@/styles/tailwind.css'
@@ -22,11 +22,13 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
+  params: { locale },
 }: {
   children: React.ReactNode
+  params: { locale: string }
 }) {
   return (
-    <html lang="en" className="h-full antialiased" suppressHydrationWarning>
+    <html lang={locale} className="h-full antialiased" suppressHydrationWarning>
       <body className="flex h-full bg-zinc-50 dark:bg-black">
         <Providers>
           <div className="flex w-full">
