@@ -1,7 +1,7 @@
 import Image, { type ImageProps } from 'next/image'
-import Link from 'next/link'
 import clsx from 'clsx'
 import { useTranslations } from 'next-intl'
+import { Link } from '../../../navigation'
 
 import { Button } from '@/components/Button'
 import { Card } from '@/components/Card'
