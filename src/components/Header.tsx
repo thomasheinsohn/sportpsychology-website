@@ -11,6 +11,7 @@ import { Container } from '@/components/Container'
 import avatarImage from '@/images/avatar.jpg'
 import { Link } from '../../navigation'
 import React from 'react'
+import { useTranslations } from 'next-intl'
 
 function CloseIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
@@ -303,6 +304,7 @@ function Avatar({
 }
 
 export function Header() {
+  // const t = useTranslations('Header')
   let isHomePage = usePathname() === '/'
 
   let headerRef = useRef<React.ElementRef<'div'>>(null)

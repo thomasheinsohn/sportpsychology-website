@@ -44,9 +44,14 @@ export default function About() {
   use(checkSession())
   const t = useTranslations('About')
   return (
-    <SimpleLayout title={t('title')} intro={t('content')}>
+    <SimpleLayout
+      title={t('title')}
+      intro={t('content')}
+      subTitle={t('subTitle')}
+      subContent={t('subContent')}
+    >
       <div className="space-y-20">
-        <SpeakingSection title="Conferences">
+        <SpeakingSection title={t('education')}>
           <Appearance
             href="#"
             title="In space, no one can watch you stream — until now"
@@ -62,7 +67,7 @@ export default function About() {
             cta="Watch video"
           />
         </SpeakingSection>
-        <SpeakingSection title="Podcasts">
+        <SpeakingSection title={t('licenses')}>
           <Appearance
             href="#"
             title="Using design as a competitive advantage"
