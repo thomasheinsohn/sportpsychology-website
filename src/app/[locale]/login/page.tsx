@@ -12,12 +12,12 @@ export default async function Page() {
   const [state, formAction] = useFormState(createForm, initialState)
 
   return (
-    <div className="flex-col items-center justify-center">
-      <div className="flex items-center justify-center gap-2 lg:mt-5">
+    <div className=" flex-col items-center justify-center text-center">
+      <div className="mt-12 flex items-center justify-center gap-2 lg:mt-5">
         <h1 className="text-3xl font-bold tracking-tight text-zinc-800 sm:text-4xl dark:text-zinc-100">
           This website is currently under construction
         </h1>
-        <Wrench />
+        {/* <Wrench /> */}
       </div>
       <Container className="flex flex-col items-center py-8 text-center sm:py-8 lg:py-8">
         <h1 className="text-3xl font-bold tracking-tight text-zinc-800 sm:text-4xl dark:text-zinc-100">
@@ -29,12 +29,12 @@ export default async function Page() {
               type="password"
               name="password"
               placeholder="Password"
-              className="m-3"
+              className="m-2 p-1"
             />
             <br />
             <button
               type="submit"
-              className="mt-1 text-base font-medium text-blue-600 hover:text-blue-800"
+              className="text-base font-medium text-blue-600 hover:text-blue-800"
             >
               Login
               <span aria-hidden="true">&rarr;</span>
