@@ -1,6 +1,6 @@
 'use server'
 
-import { login } from '../../lib'
+import { login } from '../../../lib'
 
 export async function createForm(prevState: any, formData: FormData) {
   const password = formData.get('password')

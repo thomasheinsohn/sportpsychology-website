@@ -7,11 +7,11 @@ import '@/styles/tailwind.css'
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - Hanna Komes',
+    template: 'Sportpsychologie Komes',
     default: 'Applied sports psychologist Hanna Komes',
   },
   description:
-    'I’m Spencer, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms.',
+    'Hanna Komes is an applied sports psychologist specializing in mental training and psychological support to optimize athletic performance. Her tailored approaches help athletes overcome barriers, boost resilience, and achieve long-term success.',
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
