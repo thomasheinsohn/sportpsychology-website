@@ -1,9 +1,18 @@
 {
-  "start": {
-    "title": "Willkommen in der Sportpsychologie Kose"
+  "Header": {
+    "about": "Über mich"
   },
-
-  "Index": {
+  "Home": {
+    "title": "Willkommen in der Sportpsychologie Kose",
+    "subtext": "Informationen"
+  },
+  "About": {
+    "title": "Hallo Welt!"
+  },
+  "Service": {
+    "title": "Hallo Welt!"
+  },
+  "Contact": {
     "title": "Hallo Welt!"
   }
 }

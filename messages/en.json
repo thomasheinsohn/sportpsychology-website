@@ -1,8 +1,15 @@
 {
-  "start": {
-    "title": "Welcome to Kose Sports Psychology"
+  "Home": {
+    "title": "Welcome to Kose Sports Psychology",
+    "subtext": "some information"
   },
-  "Index": {
-    "title": "Hello world!"
+  "About": {
+    "title": "Hallo Welt!"
+  },
+  "Service": {
+    "title": "Hallo Welt!"
+  },
+  "Contact": {
+    "title": "Hallo Welt!"
   }
 }
