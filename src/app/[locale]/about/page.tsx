@@ -1,4 +1,3 @@
-import { type Metadata } from 'next'
 import Image from 'next/image'
 import clsx from 'clsx'
 import { Link } from '../../../../navigation'

@@ -10,7 +10,6 @@ import clsx from 'clsx'
 import { Container } from '@/components/Container'
 import avatarImage from '@/images/avatar.jpg'
 import { Link } from '../../navigation'
-import { useTranslations } from 'next-intl'
 
 function CloseIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
