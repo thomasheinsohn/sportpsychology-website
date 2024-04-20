@@ -6,17 +6,9 @@ import { Layout } from '@/components/Layout'
 import '@/styles/tailwind.css'
 
 export const metadata: Metadata = {
-  title: {
-    template: 'Sportpsychologie Komes',
-    default: 'Applied sports psychologist Hanna Komes',
-  },
+  title: 'Sportpsychologie Komes',
   description:
     'Hanna Komes is an applied sports psychologist specializing in mental training and psychological support to optimize athletic performance. Her tailored approaches help athletes overcome barriers, boost resilience, and achieve long-term success.',
-  alternates: {
-    types: {
-      'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
-    },
-  },
 }
 
 export default function RootLayout({
