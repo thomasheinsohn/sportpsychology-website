@@ -2,7 +2,7 @@
 import { Container } from '@/components/Container'
 import { Wrench } from 'lucide-react'
 import { useFormState } from 'react-dom'
-import { createForm } from '@/app/[locale]/actions'
+import { createForm } from '../actions'
 
 const initialState = {
   message: '',
@@ -12,8 +12,8 @@ export default async function Page() {
   const [state, formAction] = useFormState(createForm, initialState)
 
   return (
-    <div className=" flex-col items-center justify-center text-center">
-      <div className="mt-12 flex items-center justify-center gap-2 lg:mt-5">
+    <div className="mt-24 flex-col content-center items-center justify-center">
+      <div className="flex items-center justify-center gap-2">
         <h1 className="text-3xl font-bold tracking-tight text-zinc-800 sm:text-4xl dark:text-zinc-100">
           This website is currently under construction
         </h1>
