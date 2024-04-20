@@ -161,7 +161,6 @@ function NavItem({
   } else {
     isActive = usePathname().includes(href)
   }
-  // console.log(href, pathname, isActive)
 
   return (
     <li>
@@ -208,14 +207,12 @@ function LanguageToggle() {
 
   const language = React.useMemo(() => {
     const locale = pathname.split('/')[1]
-    console.log(locale, 'local')
     return languageMap[locale as keyof typeof languageMap]
   }, [pathname])
 
   const onChange = () => {
     const key = pathname.split('/')[1]
     const newKey = key == 'en' ? 'de' : 'en'
-    console.log(key, pathname)
     const splitPath = pathname.split('/').splice(2)
     const reducedPath = splitPath.join('/')
     router.push(`/${newKey}/${reducedPath}`)

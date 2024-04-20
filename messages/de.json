@@ -1,18 +1,31 @@
 {
   "Home": {
     "title": "Willkommen in der Sportpsychologie Kose",
-    "subtext": "Hanna Komes ist eine angewandte Sportpsychologin, die sich auf Mentaltraining und psychologische Unterstützung zur Optimierung der sportlichen Leistung spezialisiert hat. Ihre maßgeschneiderten Ansätze helfen Sportlern, Barrieren zu überwinden, ihre Belastbarkeit zu stärken und langfristige Erfolge zu erzielen."
+    "subText": "Hanna Komes ist eine angewandte Sportpsychologin, die sich auf Mentaltraining und psychologische Unterstützung zur Optimierung der sportlichen Leistung spezialisiert hat. Ihre maßgeschneiderten Ansätze helfen Sportlern, Barrieren zu überwinden, ihre Belastbarkeit zu stärken und langfristige Erfolge zu erzielen.",
+    "mainText": "Ihre Spezialisierung auf Mentaltraining und psychologische Unterstützung zielt darauf ab, die sportliche Leistung ihrer Klienten durch individuell zugeschnittene Methoden zu optimieren. Hanna versteht es meisterhaft, psychologische Barrieren, die Athleten im Weg stehen, zu identifizieren und anzugehen. Sie arbeitet eng mit jedem Sportler zusammen, um spezifische mentale Herausforderungen zu überwinden, die deren Leistung hemmen könnten. Durch ihre tiefgehenden Kenntnisse in der Psychologie des Sports und ihre fortlaufende Beschäftigung mit aktuellen Forschungen entwickelt Hanna effektive Strategien zur Steigerung der mentalen Resilienz. Sie nutzt eine Kombination aus bewährten Techniken wie der Kognitiven Verhaltenstherapie, Achtsamkeitsübungen, Visualisierungstechniken und fortschrittlichen Entspannungsverfahren. Diese Techniken helfen Sportlern nicht nur dabei, unter Druck besser zu performen, sondern auch ihre täglichen Trainingseinheiten effektiver zu gestalten."
   },
   "About": {
-    "title": "Hallo Welt!"
+    "title": "Über mich ...",
+    "content": "Ich bin Hanna Komes, eine leidenschaftliche angewandte Sportpsychologin, die sich darauf spezialisiert hat, Athleten durch Mentaltraining und psychologische Betreuung zu Spitzenleistungen zu führen. Mit einem fundierten Hintergrund in der Psychologie und einer speziellen Ausbildung in sportpsychologischen Methoden, biete ich maßgeschneiderte Lösungen, die genau auf die individuellen Bedürfnisse der Sportler abgestimmt sind.",
+    "subTitle": "Meine Philosophie",
+    "subContent": "Mein Ansatz ist einfach: Ich glaube, dass der Geist genauso trainiert werden kann wie der Körper. Jeder Athlet, egal ob Amateur oder Profi, stößt auf psychologische Barrieren, die ihn von seiner besten Leistung abhalten können. Durch gezieltes Mentaltraining helfe ich Sportlern, diese Hindernisse zu überwinden, ihre mentale Stärke zu entwickeln und ihre Leistungsfähigkeit nachhaltig zu verbessern."
   },
   "Service": {
-    "title": "Hallo Welt!"
+    "title": "Hallo Welt!",
+    "1": "",
+    "2": "",
+    "3": ""
   },
   "Contact": {
-    "title": "Hallo Welt!"
+    "title": "Hallo Welt!",
+    "1": "",
+    "2": "",
+    "3": ""
   },
   "Header": {
-    "about": "Über mich"
+    "about": "Über mich",
+    "1": "",
+    "2": "",
+    "3": ""
   }
 }
