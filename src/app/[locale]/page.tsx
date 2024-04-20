@@ -24,6 +24,7 @@ import image5 from '@/images/photos/image-5.jpg'
 import { type ArticleWithSlug, getAllArticles } from '@/lib/articles'
 import { formatDate } from '@/lib/formatDate'
 import { use } from 'react'
+import { checkSession } from '../../../lib'
 
 function MailIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
@@ -268,6 +269,7 @@ function Photos() {
 }
 
 export default function Home() {
+  use(checkSession())
   let articles = use(getAllArticles()).slice(0, 4)
   const start = useTranslations('Home')
 
@@ -304,11 +306,7 @@ export default function Home() {
       <Photos />
       <Container className="mt-24 md:mt-28">
         <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
-          <div className="flex flex-col gap-16">
-            {articles.map((article) => (
-              <Article key={article.slug} article={article} />
-            ))}
-          </div>
+          <div className="flex flex-col gap-16">text</div>
           <div className="space-y-10 lg:pl-16 xl:pl-24">
             <Newsletter />
             <Resume />

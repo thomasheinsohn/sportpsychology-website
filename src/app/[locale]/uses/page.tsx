@@ -1,6 +1,8 @@
 import { Card } from '@/components/Card'
 import { Section } from '@/components/Section'
 import { SimpleLayout } from '@/components/SimpleLayout'
+import { use } from 'react'
+import { checkSession } from '../../../../lib'
 
 function ToolsSection({
   children,
@@ -40,6 +42,7 @@ export const metadata = {
 }
 
 export default function Uses() {
+  use(checkSession())
   return (
     <SimpleLayout
       title="Software I use, gadgets I love, and other things I recommend."

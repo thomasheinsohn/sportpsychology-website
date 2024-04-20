@@ -2,7 +2,7 @@ import { type Metadata } from 'next'
 import Image from 'next/image'
 import clsx from 'clsx'
 import { Link } from '../../../../navigation'
-
+import { use } from 'react'
 import { Container } from '@/components/Container'
 import {
   GitHubIcon,
@@ -11,6 +11,8 @@ import {
   XIcon,
 } from '@/components/SocialIcons'
 import portraitImage from '@/images/portrait.jpg'
+import { useTranslations } from 'next-intl'
+import { checkSession } from '../../../../lib'
 
 function SocialLink({
   className,
@@ -52,9 +54,9 @@ export const metadata: Metadata = {
   description:
     'I’m Spencer Sharp. I live in New York City, where I design the future.',
 }
-import { useTranslations } from 'next-intl'
 export default function About() {
-  const t = useTranslations('Index')
+  use(checkSession())
+  const t = useTranslations('About')
   return (
     <Container className="mt-16 sm:mt-32">
       <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">

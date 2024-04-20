@@ -3,6 +3,8 @@ import { type Metadata } from 'next'
 import { Card } from '@/components/Card'
 import { Section } from '@/components/Section'
 import { SimpleLayout } from '@/components/SimpleLayout'
+import { use } from 'react'
+import { checkSession } from '../../../../lib'
 
 function SpeakingSection({
   children,
@@ -47,6 +49,7 @@ export const metadata: Metadata = {
 }
 
 export default function Speaking() {
+  use(checkSession())
   return (
     <SimpleLayout
       title="I’ve spoken at events all around the world and been interviewed for many podcasts."
