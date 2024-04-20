@@ -60,11 +60,6 @@ function LinkIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   )
 }
 
-export const metadata: Metadata = {
-  title: 'Sportpsychologin',
-  description: 'Things I’ve made trying to put my dent in the universe.',
-}
-
 export default function Service() {
   use(checkSession())
   return (

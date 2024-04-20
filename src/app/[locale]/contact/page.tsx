@@ -41,14 +41,7 @@ function Appearance({
     </Card>
   )
 }
-
-export const metadata: Metadata = {
-  title: 'Speaking',
-  description:
-    'I’ve spoken at events all around the world and been interviewed for many podcasts.',
-}
-
-export default function Speaking() {
+export default function Contact() {
   use(checkSession())
   return (
     <SimpleLayout
