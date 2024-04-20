@@ -65,7 +65,7 @@ export const metadata: Metadata = {
   description: 'Things I’ve made trying to put my dent in the universe.',
 }
 
-export default function Projects() {
+export default function Service() {
   use(checkSession())
   return (
     <SimpleLayout
