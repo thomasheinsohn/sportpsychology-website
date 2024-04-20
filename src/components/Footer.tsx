@@ -27,9 +27,9 @@ export function Footer() {
           <ContainerInner>
             <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
               <div className="flex flex-wrap justify-center gap-x-6 gap-y-1 text-sm font-medium text-zinc-800 dark:text-zinc-200">
-                <NavLink href="/about">About</NavLink>
+                <NavLink href="/about">About me</NavLink>
                 <NavLink href="/service">Service</NavLink>
-                <NavLink href="/speaking">Speaking</NavLink>
+                <NavLink href="/contact">Contact</NavLink>
                 <NavLink href="/uses">Uses</NavLink>
                 <NavLink href="/imprint">Imprint</NavLink>
                 <NavLink href="/policy">Privacy Policy</NavLink>
