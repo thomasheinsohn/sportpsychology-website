@@ -5,7 +5,7 @@
     "mainText": "Her specialization in mental training and psychological support is aimed at optimizing the athletic performance of her clients through individually tailored methods. Hanna expertly identifies and addresses psychological barriers that stand in the way of athletes. She works closely with each athlete to overcome specific mental challenges that could hinder their performance. With her profound knowledge in the psychology of sports and her ongoing engagement with current research, Hanna develops effective strategies to enhance mental resilience. She uses a combination of proven techniques such as Cognitive Behavioral Therapy, mindfulness exercises, visualization techniques, and advanced relaxation procedures. These techniques not only help athletes perform better under pressure but also make their daily training sessions more effective."
   },
   "About": {
-    "title": "About me ...",
+    "title": "About me",
     "content": "I am Hanna Komes, a passionate applied sports psychologist who specializes in leading athletes to peak performance through mental training and psychological support. With a sound background in psychology and special training in sports psychology methods, I offer tailor-made solutions that are precisely tailored to the individual needs of athletes.",
     "subTitle": "My philosophy",
     "subContent": "My approach is simple: I believe that the mind can be trained just like the body. Every athlete, amateur or professional, encounters psychological barriers that can prevent them from performing at their best. Through targeted mental training, I help athletes overcome these obstacles, develop their mental strength and sustainably improve their performance.",
@@ -20,5 +20,11 @@
   },
   "Header": {
     "about": "About me"
+  },
+  "Imprint": {
+    "title": "Imprint"
+  },
+  "Policy": {
+    "title": "Policy"
   }
 }

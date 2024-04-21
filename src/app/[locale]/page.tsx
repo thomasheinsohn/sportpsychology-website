@@ -3,7 +3,7 @@ import clsx from 'clsx'
 import { useTranslations } from 'next-intl'
 import { Link } from '../../../navigation'
 
-import { Button } from '@/components/Button'
+import { Button } from '@/app/Button'
 import { Container } from '@/components/Container'
 import {
   GitHubIcon,

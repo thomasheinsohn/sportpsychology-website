@@ -35,7 +35,7 @@ export function Footer() {
                 <NavLink href="/policy">Privacy Policy</NavLink>
               </div>
               <p className="text-sm text-zinc-400 dark:text-zinc-500">
-                &copy; {new Date().getFullYear()} Hanna Komes. All rights
+                &copy; {new Date().getFullYear()}, Hanna Komes. All rights
                 reserved.
               </p>
             </div>

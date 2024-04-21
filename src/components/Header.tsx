@@ -154,15 +154,15 @@ function NavItem({
   href: string
   children: React.ReactNode
 }) {
-  let isActive
   const pathname = usePathname()
-  console.log(pathname, href)
 
-  if (href === '/de') {
-    isActive = pathname === href
+  let isActive = false
+  if (href === '/') {
+    isActive = pathname === '/de' || pathname === '/en'
   } else {
-    isActive = usePathname().includes(href)
+    isActive = pathname === `/de${href}` || pathname === `/en${href}`
   }
+  // console.log('Current Path:', pathname, 'Href:', href, 'isActive:', isActive)
 
   return (
     <li>
@@ -171,8 +171,8 @@ function NavItem({
         className={clsx(
           'relative block px-3 py-2 transition',
           isActive
-            ? 'text-red-500 dark:text-red-400'
-            : 'hover:text-red-500 dark:hover:text-red-400',
+            ? 'text-teal-500 dark:text-teal-400'
+            : 'hover:text-teal-500 dark:hover:text-teal-400',
         )}
       >
         {children}
