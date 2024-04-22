@@ -31,7 +31,7 @@ export default function Page() {
             <br />
             <button
               type="submit"
-              className="text-base font-medium text-blue-600 hover:text-blue-800"
+              className="text-base font-medium text-sky-600 hover:text-sky-800"
             >
               Login
               <span aria-hidden="true">&rarr;</span>
