@@ -13,12 +13,9 @@ export default function Page() {
 
   return (
     <div className="mt-24 flex-col content-center items-center justify-center">
-      <div className="flex items-center justify-center gap-2">
-        <h1 className="text-3xl font-bold tracking-tight text-zinc-800 sm:text-4xl dark:text-zinc-100">
-          This website is currently under construction
-          {/* <Construction /> */}
-        </h1>
-      </div>
+      <h1 className="flex justify-center gap-2 text-center text-3xl font-bold tracking-tight text-zinc-800 sm:text-4xl dark:text-zinc-100">
+        This website is currently under construction
+      </h1>
       <Container className="flex flex-col items-center py-8 text-center sm:py-8 lg:py-8">
         <h1 className="text-3xl font-bold tracking-tight text-zinc-800 sm:text-4xl dark:text-zinc-100">
           Login
