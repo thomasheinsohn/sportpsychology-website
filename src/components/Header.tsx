@@ -339,7 +339,7 @@ export function Header() {
           marginBottom: 'var(--header-mb)',
         }}
       >
-        {
+        {/* {
           <>
             <div
               ref={avatarRef}
@@ -353,7 +353,7 @@ export function Header() {
               }}
             ></Container>
           </>
-        }
+        } */}
         <div
           ref={headerRef}
           className="top-0 z-10 h-16 pt-6"
@@ -369,12 +369,13 @@ export function Header() {
                 'var(--header-inner-position)' as React.CSSProperties['position'],
             }}
           >
-            <div className="relative flex gap-4">
-              <div className="flex flex-1 justify-end md:justify-center">
+            <div className="relative flex items-center justify-between gap-4">
+              <div className="hidden md:block"></div>
+              <div className="flex justify-end md:justify-center">
                 <MobileNavigation className="pointer-events-auto md:hidden" />
                 <DesktopNavigation className="pointer-events-auto hidden md:block" />
               </div>
-              <div className="flex justify-end md:flex-1">
+              <div className="flex justify-end">
                 <div className="pointer-events-auto mr-2">
                   <LanguageToggle />
                 </div>
