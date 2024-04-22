@@ -1,17 +1,13 @@
 'use client'
-
 import { Fragment, useEffect, useRef, useState } from 'react'
-import Image from 'next/image'
 import { usePathname, useRouter } from 'next/navigation'
 import { useTheme } from 'next-themes'
 import { Popover, Transition } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import avatarImage from '@/images/avatar.jpg'
 import { Link } from '../../navigation'
 import React from 'react'
-import { useTranslations } from 'next-intl'
 
 function CloseIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
@@ -259,52 +255,8 @@ function clamp(number: number, a: number, b: number) {
   return Math.min(Math.max(number, min), max)
 }
 
-function AvatarContainer({
-  className,
-  ...props
-}: React.ComponentPropsWithoutRef<'div'>) {
-  return (
-    <div
-      className={clsx(
-        className,
-        'h-10 w-10 rounded-full bg-white/90 p-0.5 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:ring-white/10',
-      )}
-      {...props}
-    />
-  )
-}
-
-function Avatar({
-  large = false,
-  className,
-  ...props
-}: Omit<React.ComponentPropsWithoutRef<typeof Link>, 'href'> & {
-  large?: boolean
-}) {
-  return (
-    <Link
-      href="/"
-      aria-label="Home"
-      className={clsx(className, 'pointer-events-auto')}
-      {...props}
-    >
-      <Image
-        src={avatarImage}
-        alt=""
-        sizes={large ? '4rem' : '2.25rem'}
-        className={clsx(
-          'rounded-full bg-zinc-100 object-cover dark:bg-zinc-800',
-          large ? 'h-16 w-16' : 'h-9 w-9',
-        )}
-        priority
-      />
-    </Link>
-  )
-}
-
 export function Header() {
   // const t = useTranslations('Header')
-  let isHomePage = usePathname() === '/'
 
   let headerRef = useRef<React.ElementRef<'div'>>(null)
   let avatarRef = useRef<React.ElementRef<'div'>>(null)
@@ -363,40 +315,40 @@ export function Header() {
       }
     }
 
-    function updateAvatarStyles() {
-      if (!isHomePage) {
-        return
-      }
+    // function updateAvatarStyles() {
+    //   if (!isHomePage) {
+    //     return
+    //   }
 
-      let fromScale = 1
-      let toScale = 36 / 64
-      let fromX = 0
-      let toX = 2 / 16
+    //   let fromScale = 1
+    //   let toScale = 36 / 64
+    //   let fromX = 0
+    //   let toX = 2 / 16
 
-      let scrollY = downDelay - window.scrollY
+    //   let scrollY = downDelay - window.scrollY
 
-      let scale = (scrollY * (fromScale - toScale)) / downDelay + toScale
-      scale = clamp(scale, fromScale, toScale)
+    //   let scale = (scrollY * (fromScale - toScale)) / downDelay + toScale
+    //   scale = clamp(scale, fromScale, toScale)
 
-      let x = (scrollY * (fromX - toX)) / downDelay + toX
-      x = clamp(x, fromX, toX)
+    //   let x = (scrollY * (fromX - toX)) / downDelay + toX
+    //   x = clamp(x, fromX, toX)
 
-      setProperty(
-        '--avatar-image-transform',
-        `translate3d(${x}rem, 0, 0) scale(${scale})`,
-      )
+    //   setProperty(
+    //     '--avatar-image-transform',
+    //     `translate3d(${x}rem, 0, 0) scale(${scale})`,
+    //   )
 
-      let borderScale = 1 / (toScale / scale)
-      let borderX = (-toX + x) * borderScale
-      let borderTransform = `translate3d(${borderX}rem, 0, 0) scale(${borderScale})`
+    //   let borderScale = 1 / (toScale / scale)
+    //   let borderX = (-toX + x) * borderScale
+    //   let borderTransform = `translate3d(${borderX}rem, 0, 0) scale(${borderScale})`
 
-      setProperty('--avatar-border-transform', borderTransform)
-      setProperty('--avatar-border-opacity', scale === toScale ? '1' : '0')
-    }
+    //   setProperty('--avatar-border-transform', borderTransform)
+    //   setProperty('--avatar-border-opacity', scale === toScale ? '1' : '0')
+    // }
 
     function updateStyles() {
       updateHeaderStyles()
-      updateAvatarStyles()
+      // updateAvatarStyles()
       isInitial.current = false
     }
 
@@ -408,7 +360,7 @@ export function Header() {
       window.removeEventListener('scroll', updateStyles)
       window.removeEventListener('resize', updateStyles)
     }
-  }, [isHomePage])
+  })
 
   return (
     <>
@@ -419,7 +371,7 @@ export function Header() {
           marginBottom: 'var(--header-mb)',
         }}
       >
-        {isHomePage && (
+        {
           <>
             <div
               ref={avatarRef}
@@ -431,32 +383,9 @@ export function Header() {
                 position:
                   'var(--header-position)' as React.CSSProperties['position'],
               }}
-            >
-              <div
-                className="top-[var(--avatar-top,theme(spacing.3))] w-full"
-                style={{
-                  position:
-                    'var(--header-inner-position)' as React.CSSProperties['position'],
-                }}
-              >
-                <div className="relative">
-                  <AvatarContainer
-                    className="absolute left-0 top-3 origin-left transition-opacity"
-                    style={{
-                      opacity: 'var(--avatar-border-opacity, 0)',
-                      transform: 'var(--avatar-border-transform)',
-                    }}
-                  />
-                  <Avatar
-                    large
-                    className="block h-16 w-16 origin-left"
-                    style={{ transform: 'var(--avatar-image-transform)' }}
-                  />
-                </div>
-              </div>
-            </Container>
+            ></Container>
           </>
-        )}
+        }
         <div
           ref={headerRef}
           className="top-0 z-10 h-16 pt-6"
@@ -473,13 +402,6 @@ export function Header() {
             }}
           >
             <div className="relative flex gap-4">
-              <div className="flex flex-1">
-                {!isHomePage && (
-                  <AvatarContainer>
-                    <Avatar />
-                  </AvatarContainer>
-                )}
-              </div>
               <div className="flex flex-1 justify-end md:justify-center">
                 <MobileNavigation className="pointer-events-auto md:hidden" />
                 <DesktopNavigation className="pointer-events-auto hidden md:block" />
@@ -496,12 +418,6 @@ export function Header() {
           </Container>
         </div>
       </header>
-      {isHomePage && (
-        <div
-          className="flex-none"
-          style={{ height: 'var(--content-offset)' }}
-        />
-      )}
     </>
   )
 }

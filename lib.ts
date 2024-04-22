@@ -63,7 +63,7 @@ export async function getSession() {
 export async function checkSession() {
   const session = cookies().get('session')?.value
   if (!session) {
-    redirect('/en/login')
+    redirect('/de/login')
   }
 }
 
