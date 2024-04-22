@@ -38,5 +38,11 @@
   },
   "Login": {
     "title": "Diese Website befindet sich derzeit im Aufbau."
+  },
+  "Footer": {
+    "about": "Über mich",
+    "contact": "Kontakt",
+    "imprint": "Impressum",
+    "policy": "Datenschutz"
   }
 }

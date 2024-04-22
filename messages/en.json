@@ -29,5 +29,11 @@
   },
   "Login": {
     "title": "This website is currently under construction"
+  },
+  "Footer": {
+    "about": "About me",
+    "contact": "Contact",
+    "imprint": "Imprint",
+    "policy": "Privacy Policy"
   }
 }

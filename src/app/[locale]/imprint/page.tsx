@@ -1,15 +1,5 @@
-import Image from 'next/image'
-import clsx from 'clsx'
-import { Link } from '../../../../navigation'
 import { use } from 'react'
 import { Container } from '@/components/Container'
-import {
-  GitHubIcon,
-  InstagramIcon,
-  LinkedInIcon,
-  XIcon,
-} from '@/components/SocialIcons'
-import portraitImage from '@/images/portrait.jpg'
 import { useTranslations } from 'next-intl'
 import { checkSession } from '../../../../lib'
 

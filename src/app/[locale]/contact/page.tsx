@@ -4,14 +4,14 @@ import { Link } from '../../../../navigation'
 import { use } from 'react'
 import { Container } from '@/components/Container'
 import {
-  GitHubIcon,
   InstagramIcon,
   LinkedInIcon,
-  XIcon,
+  LocationPin,
 } from '@/components/SocialIcons'
 import portraitImage from '@/images/portrait.jpg'
 import { useTranslations } from 'next-intl'
 import { checkSession } from '../../../../lib'
+import { MapPin } from 'lucide-react'
 
 function SocialLink({
   className,
@@ -28,6 +28,7 @@ function SocialLink({
     <li className={clsx(className, 'flex')}>
       <Link
         href={href}
+        target="_blank"
         className="group flex text-sm font-medium text-zinc-800 transition hover:text-sky-500 dark:text-zinc-200 dark:hover:text-sky-500"
       >
         <Icon className="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-sky-500" />
@@ -99,24 +100,29 @@ export default function Contact() {
         </div>
         <div className="lg:pl-20">
           <ul role="list">
-            <SocialLink href="#" icon={XIcon}>
-              Follow on X
-            </SocialLink>
-            <SocialLink href="#" icon={InstagramIcon} className="mt-4">
-              Follow on Instagram
-            </SocialLink>
-            <SocialLink href="#" icon={GitHubIcon} className="mt-4">
-              Follow on GitHub
-            </SocialLink>
-            <SocialLink href="#" icon={LinkedInIcon} className="mt-4">
-              Follow on LinkedIn
+            <SocialLink
+              icon={LocationPin}
+              href="https://www.google.com/maps/place/Kreuzberg"
+              className=""
+            >
+              Berlin, Kreuzberg
             </SocialLink>
             <SocialLink
               href="mailto:contact@movementpsychology.de"
               icon={MailIcon}
-              className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
+              className="mt-4"
             >
               contact@movementpsy.de
+            </SocialLink>
+            <SocialLink
+              href="#"
+              icon={InstagramIcon}
+              className=" mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
+            >
+              Follow on Instagram
+            </SocialLink>
+            <SocialLink href="#" icon={LinkedInIcon} className="mt-4">
+              Follow on LinkedIn
             </SocialLink>
           </ul>
         </div>

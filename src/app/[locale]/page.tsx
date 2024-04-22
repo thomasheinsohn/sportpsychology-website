@@ -9,7 +9,6 @@ import {
   GitHubIcon,
   InstagramIcon,
   LinkedInIcon,
-  XIcon,
 } from '@/components/SocialIcons'
 import logoAirbnb from '@/images/logos/airbnb.svg'
 import logoFacebook from '@/images/logos/facebook.svg'
@@ -213,7 +212,6 @@ export default function Home() {
             {t('subText')}
           </p>
           <div className="mt-6 flex gap-6">
-            <SocialLink href="#" aria-label="Follow on X" icon={XIcon} />
             <SocialLink
               href="#"
               aria-label="Follow on Instagram"
