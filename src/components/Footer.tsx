@@ -61,14 +61,14 @@ export function Footer() {
                 <NavLink href="/policy">{t('policy')}</NavLink>
               </div>
               <p className="flex text-sm text-zinc-400 dark:text-zinc-500">
-                &copy; {new Date().getFullYear()} Hanna Komes. All rights
+                &copy; {new Date().getFullYear()}, Hanna Komes. All rights
                 reserved.
-                <SocialLink
-                  href="https://github.com/thomasheinsohn"
-                  icon={GitHubIcon}
-                  className="ml-3"
-                />
               </p>
+              {/* <SocialLink
+                href="https://github.com/thomasheinsohn"
+                icon={GitHubIcon}
+                className="ml-3"
+              /> */}
             </div>
           </ContainerInner>
         </div>

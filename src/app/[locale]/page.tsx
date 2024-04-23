@@ -219,11 +219,6 @@ export default function Home() {
             />
             <SocialLink
               href="#"
-              aria-label="Follow on GitHub"
-              icon={GitHubIcon}
-            />
-            <SocialLink
-              href="#"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
