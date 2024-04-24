@@ -4,7 +4,6 @@ import { usePathname, useRouter } from 'next/navigation'
 import { useTheme } from 'next-themes'
 import { Popover, Transition } from '@headlessui/react'
 import clsx from 'clsx'
-
 import { Container } from '@/components/Container'
 import { Link } from '../../navigation'
 import React from 'react'
@@ -194,15 +193,13 @@ function DesktopNavigation(props: React.ComponentPropsWithoutRef<'nav'>) {
 }
 
 function LanguageToggle() {
-  const pathname = usePathname()
-
   const languageMap = {
     en: '🇩🇪',
     de: '🇬🇧',
   }
 
   const router = useRouter()
-
+  const pathname = usePathname()
   const language = React.useMemo(() => {
     const locale = pathname.split('/')[1]
     return languageMap[locale as keyof typeof languageMap]
@@ -339,21 +336,6 @@ export function Header() {
           marginBottom: 'var(--header-mb)',
         }}
       >
-        {/* {
-          <>
-            <div
-              ref={avatarRef}
-              className="order-last mt-[calc(theme(spacing.16)-theme(spacing.3))]"
-            />
-            <Container
-              className="top-0 order-last -mb-3 pt-3"
-              style={{
-                position:
-                  'var(--header-position)' as React.CSSProperties['position'],
-              }}
-            ></Container>
-          </>
-        } */}
         <div
           ref={headerRef}
           className="top-0 z-10 h-16 pt-6"
