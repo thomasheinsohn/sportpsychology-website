@@ -3,13 +3,8 @@ import clsx from 'clsx'
 import { useTranslations } from 'next-intl'
 import { Link } from '../../../navigation'
 
-import { Button } from '@/app/Button'
 import { Container } from '@/components/Container'
-import {
-  GitHubIcon,
-  InstagramIcon,
-  LinkedInIcon,
-} from '@/components/SocialIcons'
+import { InstagramIcon, LinkedInIcon } from '@/components/SocialIcons'
 import logoAirbnb from '@/images/logos/airbnb.svg'
 import logoFacebook from '@/images/logos/facebook.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
@@ -21,6 +16,7 @@ import image4 from '@/images/photos/image-4.jpg'
 import image5 from '@/images/photos/image-5.jpg'
 import { use } from 'react'
 import { checkSession } from '../../../lib'
+import { Button } from '@/components/Button'
 
 function BriefcaseIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
