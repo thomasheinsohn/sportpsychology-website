@@ -12,7 +12,7 @@ export default function Page() {
   const [state, formAction] = useFormState(createForm, initialState)
 
   return (
-    <div className="mt-24 flex-col content-center items-center justify-center">
+    <div className="mt-32 flex-col content-center items-center justify-center text-center">
       <h1 className="flex justify-center gap-2 text-center text-3xl font-bold tracking-tight text-zinc-800 sm:text-4xl dark:text-zinc-100">
         This website is currently under construction
       </h1>
