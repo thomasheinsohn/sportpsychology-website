@@ -2,7 +2,6 @@
 import { Container } from '@/components/Container'
 import { useFormState } from 'react-dom'
 import { createForm } from '../actions'
-import Construction from '@/components/Construction'
 
 const initialState = {
   message: '',
