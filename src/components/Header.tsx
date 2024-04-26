@@ -128,7 +128,7 @@ function NavItem({
 
 export function DesktopNavigation({
   about,
-  contact,
+  content,
   ...props
 }: React.ComponentPropsWithoutRef<'nav'>) {
   return (
@@ -137,7 +137,7 @@ export function DesktopNavigation({
         <NavItem href="/">Home</NavItem>
         <NavItem href="/about">{about}</NavItem>
         <NavItem href="/service">Service</NavItem>
-        <NavItem href="/contact">{contact}</NavItem>
+        <NavItem href="/contact">{content}</NavItem>
       </ul>
     </nav>
   )
@@ -306,7 +306,7 @@ export function Header({ about, contact }: { about: string; contact: string }) {
                 <MobileNavigation className="pointer-events-auto md:hidden" />
                 <DesktopNavigation
                   about={about}
-                  contact={contact}
+                  content={contact}
                   className="pointer-events-auto hidden md:block"
                 />
               </div>
