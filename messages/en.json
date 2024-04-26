@@ -19,7 +19,8 @@
     "title": "Contact"
   },
   "Header": {
-    "about": "About me"
+    "about": "About me",
+    "contact": "Contact"
   },
   "Imprint": {
     "title": "Imprint"
