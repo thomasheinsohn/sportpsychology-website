@@ -8,7 +8,7 @@ export async function createForm(prevState: any, formData: FormData) {
   if (typeof password === 'string') {
     await login(password)
   } else {
-    throw new Error('Password is required and must be a string.')
+    throw new Error('Password is required and must be a string!')
   }
   return {
     message: 'Incorrect password. Please try again.',
