@@ -8,10 +8,9 @@ import {
   LinkedInIcon,
   LocationPin,
 } from '@/components/SocialIcons'
-import portraitImage from '@/images/portrait.jpg'
+import portraitImage from '@/images/hanna.jpg'
 import { useTranslations } from 'next-intl'
 import { checkSession } from '../../../../lib'
-import { MapPin } from 'lucide-react'
 
 function SocialLink({
   className,
