@@ -126,18 +126,14 @@ function NavItem({
   )
 }
 
-export function DesktopNavigation({
-  about,
-  content,
-  ...props
-}: React.ComponentPropsWithoutRef<'nav'>) {
+function DesktopNavigation(props: React.ComponentPropsWithoutRef<'nav'>) {
   return (
     <nav {...props}>
       <ul className="flex rounded-full bg-white/90 px-3 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10">
         <NavItem href="/">Home</NavItem>
-        <NavItem href="/about">{about}</NavItem>
+        <NavItem href="/about">About me</NavItem>
         <NavItem href="/service">Service</NavItem>
-        <NavItem href="/contact">{content}</NavItem>
+        <NavItem href="/contact">Contact</NavItem>
       </ul>
     </nav>
   )
@@ -203,7 +199,9 @@ function clamp(number: number, a: number, b: number) {
   return Math.min(Math.max(number, min), max)
 }
 
-export function Header({ about, contact }: { about: string; contact: string }) {
+export function Header() {
+  // const t = useTranslations('Header')
+
   let headerRef = useRef<React.ElementRef<'div'>>(null)
   let avatarRef = useRef<React.ElementRef<'div'>>(null)
   let isInitial = useRef(true)
@@ -304,11 +302,7 @@ export function Header({ about, contact }: { about: string; contact: string }) {
               <div className="hidden md:block"></div>
               <div className="flex justify-end md:justify-center">
                 <MobileNavigation className="pointer-events-auto md:hidden" />
-                <DesktopNavigation
-                  about={about}
-                  content={contact}
-                  className="pointer-events-auto hidden md:block"
-                />
+                <DesktopNavigation className="pointer-events-auto hidden md:block" />
               </div>
               <div className="flex justify-end">
                 <div className="pointer-events-auto mr-2">

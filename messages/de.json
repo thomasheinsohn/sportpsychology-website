@@ -26,7 +26,9 @@
   },
   "Header": {
     "about": "Über mich",
-    "contact": "Kontakt"
+    "1": "",
+    "2": "",
+    "3": ""
   },
   "Imprint": {
     "title": "Impressum"
