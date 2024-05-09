@@ -17,7 +17,10 @@
     "title": "Services",
     "service1": "Sports psychological training",
     "service1text": "Would you like to train sports psychological skills to optimally complement your sport? Then the following content could bring you closer to your goals:",
-    "3": ""
+    "service2": "Functional training",
+    "service3": "Combination of 1 & 2",
+    "service3text": "Are you interested in holistic, functional training? Then the combination of training and sports psychology could be something for you.",
+    "end": "All listed services are possible in an individual and team setting."
   },
   "Contact": {
     "title": "Contact"

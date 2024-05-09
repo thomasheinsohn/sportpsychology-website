@@ -17,7 +17,10 @@
     "title": "Leistungen",
     "service1": "Sportpsychologisches Training",
     "service1text": "Du möchtest sportpsychologische Fertigkeiten trainieren, um deine Sportart optimal zu ergänzen? Dann könnten dich folgende Inhalte näher an deine Ziele bringen:",
-    "3": ""
+    "service2": "Funktionelles Training",
+    "service3": "Kombination aus 1 & 2",
+    "service3text": "Du hast Lust auf ganzheitliches, funktionelles Training? Dann könnte die Kombi aus Training und Sportpsychologie geeignet für dich sein.",
+    "end": "Alle aufgeführten Leistungen sind sowohl im Einzel- als auch im Teamsetting möglich."
   },
   "Contact": {
     "title": "Kontakt",
