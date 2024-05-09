@@ -1,16 +1,17 @@
 {
   "Home": {
-    "title": "Welcome to Sport Psychology Berlin - Hanna Komes",
+    "title": "Welcome to my website. I’m happy that you found your way here!",
     "subText": "Hanna Komes is an applied sports psychologist specializing in mental training and psychological support to optimize athletic performance. Her tailored approaches help athletes overcome barriers, boost resilience, and achieve long-term success.",
-    "mainText": "Her specialization in mental training and psychological support is aimed at optimizing the athletic performance of her clients through individually tailored methods. Hanna expertly identifies and addresses psychological barriers that stand in the way of athletes. She works closely with each athlete to overcome specific mental challenges that could hinder their performance. With her profound knowledge in the psychology of sports and her ongoing engagement with current research, Hanna develops effective strategies to enhance mental resilience. She uses a combination of proven techniques such as Cognitive Behavioral Therapy, mindfulness exercises, visualization techniques, and advanced relaxation procedures. These techniques not only help athletes perform better under pressure but also make their daily training sessions more effective."
+    "subtitle": "What is sports psychology?",
+    "mainText": "Sports psychological training fosters optimal collaboration between the body and mind to elevate athletic performance. With targeted, individualized, and evidence-based methods, sports psychology proves to be a valuable complement to any sport."
   },
   "About": {
     "title": "About me",
-    "content": "I am Hanna Komes, a passionate applied sports psychologist who specializes in leading athletes to peak performance through mental training and psychological support. With a sound background in psychology and special training in sports psychology methods, I offer tailor-made solutions that are precisely tailored to the individual needs of athletes.",
-    "subTitle": "My philosophy",
-    "subContent": "My approach is simple: I believe that the mind can be trained just like the body. Every athlete, amateur or professional, encounters psychological barriers that can prevent them from performing at their best. Through targeted mental training, I help athletes overcome these obstacles, develop their mental strength and sustainably improve their performance.",
-    "education": "Education",
-    "licenses": "Licences"
+    "content1": "I grew up participating in sports like gymnastics, hockey, track and field, and tennis. When I discovered CrossFit in 2016, it's versatility resonated with me as it incorporated elements from my previous athletic experience. Since 2019, I have been guiding individuals towards their personal goals as a CrossFit coach.",
+    "content2": "As a psychologist (B. Sc.) and sports psychologist (M. Sc.), I am committed to a holistic approach when supporting athletes, coaches, and teams both within the realm of sports and beyond.",
+    "content3": "Since the beginning of 2024, I have been listed in the expert bank of the Arbeitsgemeinschaft für Sportpsychologie in Deutschland e.V., the standard for Sports psychology expertise in Germany, accepted by the German Olympic Sports Confederation (DOSB).",
+    "subtitle": "My philosophy",
+    "philosophy": "When working together, my priority is to stimulate shifts in perspective, foster growth, and facilitate development. This happens through a co-creative process where both sides actively contribute. Central to this dynamic is the establishment of trust and the assurance of confidentiality."
   },
   "Service": {
     "title": "Hallo Welt!"
@@ -32,6 +33,7 @@
   },
   "Footer": {
     "about": "About me",
+    "service": "Service",
     "contact": "Contact",
     "imprint": "Imprint",
     "policy": "Privacy Policy"

@@ -1,16 +1,17 @@
 {
   "Home": {
-    "title": "Willkommen in der Sportpsychologie Berlin - Hanna Komes",
-    "subText": "Hanna Komes ist eine angewandte Sportpsychologin, die sich auf Mentaltraining und psychologische Unterstützung zur Optimierung der sportlichen Leistung spezialisiert hat. Ihre maßgeschneiderten Ansätze helfen Sportlern, Barrieren zu überwinden, ihre Belastbarkeit zu stärken und langfristige Erfolge zu erzielen.",
-    "mainText": "Ihre Spezialisierung auf Mentaltraining und psychologische Unterstützung zielt darauf ab, die sportliche Leistung ihrer Klienten durch individuell zugeschnittene Methoden zu optimieren. Hanna versteht es meisterhaft, psychologische Barrieren, die Athleten im Weg stehen, zu identifizieren und anzugehen. Sie arbeitet eng mit jedem Sportler zusammen, um spezifische mentale Herausforderungen zu überwinden, die deren Leistung hemmen könnten. Durch ihre tiefgehenden Kenntnisse in der Psychologie des Sports und ihre fortlaufende Beschäftigung mit aktuellen Forschungen entwickelt Hanna effektive Strategien zur Steigerung der mentalen Resilienz. Sie nutzt eine Kombination aus bewährten Techniken wie der Kognitiven Verhaltenstherapie, Achtsamkeitsübungen, Visualisierungstechniken und fortschrittlichen Entspannungsverfahren. Diese Techniken helfen Sportlern nicht nur dabei, unter Druck besser zu performen, sondern auch ihre täglichen Trainingseinheiten effektiver zu gestalten."
+    "title": "Willkommen auf meiner Webseite. Schön, dass du den Weg zu mir gefunden hast!",
+    "subText": "Ich bin Hanna Komes. Beruflich bin ich als Sportpsychologin und CrossFit-Trainerin unterwegs und begleite Menschen auf dem Weg zu ihren ganz persönlichen Zielen.",
+    "subtitle": "Was ist Sportpsychologie?",
+    "mainText": "Sportpsychologisches Training unterstützt Körper und Geist dabei, optimal zusammenzuarbeiten, um leistungsfähiger zu sein und Potenziale auszuschöpfen. Durch gezieltes, individuelles und fundiertes Training kann die Sportpsychologie eine wirkungsvolle Ergänzung für jede Sportart sein."
   },
   "About": {
     "title": "Über mich",
-    "content": "Ich bin Hanna Komes, eine leidenschaftliche angewandte Sportpsychologin, die sich darauf spezialisiert hat, Athleten durch Mentaltraining und psychologische Betreuung zu Spitzenleistungen zu führen. Mit einem fundierten Hintergrund in der Psychologie und einer speziellen Ausbildung in sportpsychologischen Methoden, biete ich maßgeschneiderte Lösungen, die genau auf die individuellen Bedürfnisse der Sportler abgestimmt sind.",
-    "subTitle": "Meine Philosophie",
-    "subContent": "Mein Ansatz ist einfach: Ich glaube, dass der Geist genauso trainiert werden kann wie der Körper. Jeder Athlet, egal ob Amateur oder Profi, stößt auf psychologische Barrieren, die ihn von seiner besten Leistung abhalten können. Durch gezieltes Mentaltraining helfe ich Sportlern, diese Hindernisse zu überwinden, ihre mentale Stärke zu entwickeln und ihre Leistungsfähigkeit nachhaltig zu verbessern.",
-    "education": "Ausbildung",
-    "licenses": "Lizenzen"
+    "content1": "Aufgewachsen bin ich mit Turnen, Hockey, Leichtathletik und Tennis. Als ich 2016 auf CrossFit gestoßen bin, war ich begeistert von der Vielseitigkeit dieser Sportart, da sie vieles vereint, was ich bisher gemacht habe. Seit 2019 begleite ich als CrossFit-Trainerin Menschen auf dem Weg zu ihren persönlichen Zielen.",
+    "content2": "Als Psychologin (B. Sc.) und Sportpsychologin (M. Sc.) ist es mir ein Anliegen, Sportler:innen, Trainer:innen und Teams ganzheitlich im Sport und darüber hinaus zu unterstützen.",
+    "content3": "Seit Anfang 2024 bin ich in der Expert:innenbank der Arbeitsgemeinschaft für Sportpsychologie in Deutschland e.V. gelistet, dem vom Deutschen Olympischen Sportbund (DOSB) akzeptierten Standard für sportpsychologische Expertise in Deutschland.",
+    "subtitle": "Meine Philosophie",
+    "philosophy": "In der Zusammenarbeit ist mir besonders wichtig, Impulse für Perspektivwechsel, Wachstum und Weiterentwicklung mit auf den Weg zu geben. Dies geschieht in einem gemeinsamen Prozess, den beide Seiten aktiv mitgestalten. Dabei stehen Vertrauen und Vertraulichkeit an erster Stelle."
   },
   "Service": {
     "title": "Hallo Welt!",
@@ -41,6 +42,7 @@
   },
   "Footer": {
     "about": "Über mich",
+    "service": "Leistungen",
     "contact": "Kontakt",
     "imprint": "Impressum",
     "policy": "Datenschutz"

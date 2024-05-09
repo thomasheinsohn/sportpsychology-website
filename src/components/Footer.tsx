@@ -53,9 +53,9 @@ export function Footer() {
           <ContainerInner>
             <div className="flex flex-col items-center justify-between gap-6 text-center sm:flex-row">
               <div className="flex flex-wrap justify-center gap-x-6 gap-y-1 text-sm font-medium text-zinc-800 dark:text-zinc-200">
-                <NavLink href="/">Home</NavLink>
+                <NavLink href="/home">Home</NavLink>
                 <NavLink href="/about">{t('about')}</NavLink>
-                <NavLink href="/service">Service</NavLink>
+                <NavLink href="/service">{t('service')}</NavLink>
                 <NavLink href="/contact">{t('contact')}</NavLink>
                 <NavLink href="/imprint">{t('imprint')}</NavLink>
                 <NavLink href="/policy">{t('policy')}</NavLink>
@@ -64,11 +64,11 @@ export function Footer() {
                 &copy; {new Date().getFullYear()}, Hanna Komes. All rights
                 reserved.
               </p>
-              {/* <SocialLink
+              <SocialLink
                 href="https://github.com/thomasheinsohn"
                 icon={GitHubIcon}
                 className="ml-3"
-              /> */}
+              />
             </div>
           </ContainerInner>
         </div>
