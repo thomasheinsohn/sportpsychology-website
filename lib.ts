@@ -46,7 +46,7 @@ export async function login(password: string) {
   const session = await encrypt({ user, expires })
   // Save the session in a cookie
   cookies().set('session', session, { expires, httpOnly: true })
-  return redirect('/de')
+  return redirect('/de/home')
 }
 
 export async function logout() {
@@ -63,7 +63,7 @@ export async function getSession() {
 export async function checkSession() {
   const session = cookies().get('session')?.value
   if (!session) {
-    redirect('/de/login')
+    redirect('/')
   }
 }
 
