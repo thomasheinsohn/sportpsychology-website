@@ -141,8 +141,8 @@ function DesktopNavigation(props: React.ComponentPropsWithoutRef<'nav'>) {
 
 function LanguageToggle() {
   const languageMap = {
-    en: <GermanFlag />,
-    de: <UsaFlag />,
+    de: <GermanFlag />,
+    en: <UsaFlag />,
   }
 
   const router = useRouter()
