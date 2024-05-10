@@ -68,19 +68,21 @@ export default function Contact() {
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
             {t('title')}
           </h1>
-          <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
+          <div className="mt-6 space-y-3 text-base text-zinc-600 dark:text-zinc-400">
             <p>{t('text1')}</p>
             <p>{t('text2')}</p>
+            <p>{t('text3')}</p>
+            <p>{t('text4')}</p>
           </div>
         </div>
         <div className="lg:pl-20">
           <ul role="list">
             <SocialLink
               icon={LocationPin}
-              href="https://www.google.com/maps/place/Kreuzberg"
+              href="https://maps.app.goo.gl/fsEh1zjDQdXveVdr8?g_st=ia"
               className=""
             >
-              Berlin, Kreuzberg
+              Berlin, Wilmersdorf
             </SocialLink>
             <SocialLink
               href="mailto:hanna.komes@gmail.com"

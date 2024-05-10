@@ -4,6 +4,24 @@ import { Container } from '@/components/Container'
 import portraitImage from '@/images/hanna-color.jpeg'
 import { useTranslations } from 'next-intl'
 import { checkSession } from '../../../../lib'
+import { Link } from '../../../../navigation'
+
+function NavLink({
+  href,
+  children,
+}: {
+  href: string
+  children: React.ReactNode
+}) {
+  return (
+    <Link
+      href={href}
+      className="transition hover:text-sky-500 dark:hover:text-sky-400"
+    >
+      {children}
+    </Link>
+  )
+}
 
 export default function About() {
   use(checkSession())
@@ -12,7 +30,7 @@ export default function About() {
     <Container className="mt-10 sm:mt-16">
       <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
         <div className="lg:pl-20">
-          <div className="max-w-xs px-2.5 lg:max-w-none">
+          <div className="max-w-xs rotate-3 px-2.5 lg:max-w-none">
             <Image
               src={portraitImage}
               alt=""
@@ -37,7 +55,14 @@ export default function About() {
             {t('philosophy')}
           </p>
         </div>
-        <div className="lg:pl-20"></div>
+        <div className="lg:pl-20">
+          <button
+            type="button"
+            className="group rounded-full bg-white/90 px-3 py-2 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur transition dark:bg-zinc-800/90 dark:ring-white/10 dark:hover:ring-white/20"
+          >
+            <NavLink href="/contact">{t('contact')}</NavLink>
+          </button>
+        </div>
       </div>
     </Container>
   )

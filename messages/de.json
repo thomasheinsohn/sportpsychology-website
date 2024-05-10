@@ -11,7 +11,8 @@
     "content2": "Als Psychologin (B. Sc.) und Sportpsychologin (M. Sc.) ist es mir ein Anliegen, Sportler:innen, Trainer:innen und Teams ganzheitlich im Sport und darüber hinaus zu unterstützen.",
     "content3": "Seit Anfang 2024 bin ich in der Expert:innenbank der Arbeitsgemeinschaft für Sportpsychologie in Deutschland e.V. gelistet, dem vom Deutschen Olympischen Sportbund (DOSB) akzeptierten Standard für sportpsychologische Expertise in Deutschland.",
     "subtitle": "Meine Philosophie",
-    "philosophy": "In der Zusammenarbeit ist mir besonders wichtig, Impulse für Perspektivwechsel, Wachstum und Weiterentwicklung mit auf den Weg zu geben. Dies geschieht in einem gemeinsamen Prozess, den beide Seiten aktiv mitgestalten. Dabei stehen Vertrauen und Vertraulichkeit an erster Stelle."
+    "philosophy": "In der Zusammenarbeit ist mir besonders wichtig, Impulse für Perspektivwechsel, Wachstum und Weiterentwicklung mit auf den Weg zu geben. Dies geschieht in einem gemeinsamen Prozess, den beide Seiten aktiv mitgestalten. Dabei stehen Vertrauen und Vertraulichkeit an erster Stelle.",
+    "contact": "Kontakt"
   },
   "Service": {
     "title": "Leistungen",
@@ -36,9 +37,10 @@
   },
   "Contact": {
     "title": "Kontakt",
-    "text1": "In einem kostenlosen Erstgespräch kannst du ganz unverbindlich herausfinden, ob mein Ansatz zu dir passt.",
-    "text2": "Du wohnst nicht in Berlin? Kein Problem! Ich arbeite auch auf digitaler Basis mit Sportler:innen zusammen.",
-    "text3": ""
+    "text1": "In einem kostenlosen Erstgespräch hast du die Gelegenheit, ganz unverbindlich herauszufinden, ob mein Ansatz zu dir und deinen sportlichen Zielen passt. Gemeinsam können wir einen Plan entwickeln, der genau auf deine Bedürfnisse und Herausforderungen zugeschnitten ist.",
+    "text2": "Sportpsychologie ist mehr als nur Theorie. Es geht darum, praktische Werkzeuge zu nutzen, die Körper und Geist optimal aufeinander abstimmen und so helfen, deine Leistung zu maximieren und dein volles Potenzial auszuschöpfen. Durch individuell angepasste Strategien wie mentale Stärkung, Stressbewältigung und Konzentrationsförderung, biete ich Unterstützung, die genau auf die Anforderungen deiner Sportart abgestimmt ist.",
+    "text3": "Du wohnst nicht in Berlin? Kein Problem! Durch die Möglichkeit der digitalen Betreuung bin ich flexibel und kann dich unterstützen, egal wo du bist. So ist es möglich, gemeinsam an deinen sportlichen und psychologischen Zielen zu arbeiten, auch wenn wir nicht im selben Raum sind.",
+    "text4": "Vereinbare noch heute einen Termin für ein Erstgespräch, und lass uns zusammen einen Weg zu deinen Höchstleistungen finden."
   },
   "Header": {
     "about": "Über mich",
