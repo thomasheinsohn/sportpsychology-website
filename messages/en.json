@@ -17,13 +17,28 @@
     "title": "Services",
     "service1": "Sports psychological training",
     "service1text": "Would you like to train sports psychological skills to optimally complement your sport? Then the following content could bring you closer to your goals:",
+    "service1item1": "Learning and optimizing movement patterns through visualization",
+    "service1item2": "Comeback after injuries",
+    "service1item3": "Dealing with (chronic) pain",
+    "service1item4": "Dealing with personal crises & difficult situations",
+    "service1item5": "Relaxation",
+    "service1item6": "Strengthening self-confidence in your own abilities",
+    "service1item7": "Developing (competition) routines",
+    "service1item8": "Team building & conflict management",
+    "service1item9": "Other personal concerns",
     "service2": "Functional training",
+    "service2text": "Would you like to train the classic way? Then the following content might be interesting for you:",
+    "service2item1": "CrossFit & functional training for your overall fitness and well-being",
+    "service2item2": "CrossFit & functional training as a complement to your specific sport",
     "service3": "Combination of 1 & 2",
     "service3text": "Are you interested in holistic, functional training? Then the combination of training and sports psychology could be something for you.",
     "end": "All listed services are possible in an individual and team setting."
   },
   "Contact": {
-    "title": "Contact"
+    "title": "Contact",
+    "text1": "In a free initial consultation, you can find out if my approach is the right for you.",
+    "text2": "You’re not from Berlin? No problem! I also work with athletes on a digital basis.",
+    "text3": ""
   },
   "Header": {
     "about": "About me"
