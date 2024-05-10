@@ -83,11 +83,11 @@ export default function Contact() {
               Berlin, Kreuzberg
             </SocialLink>
             <SocialLink
-              href="mailto:contact@movementpsychology.de"
+              href="mailto:hanna.komes@gmail.com"
               icon={MailIcon}
               className="mt-4"
             >
-              contact@movementpsy.de
+              hanna.komes@gmail.com
             </SocialLink>
             <SocialLink
               href="#"

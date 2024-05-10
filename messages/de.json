@@ -15,7 +15,7 @@
   },
   "Service": {
     "title": "Leistungen",
-    "service1": "Sportpsychologisches Training",
+    "service1": "1. Sportpsychologisches Training",
     "service1text": "Du möchtest sportpsychologische Fertigkeiten trainieren, um deine Sportart optimal zu ergänzen? Dann könnten dich folgende Inhalte näher an deine Ziele bringen:",
     "service1item1": "Bewegungsabläufe durch Visualisierung lernen und optimieren",
     "service1item2": "Comeback nach Verletzungen",
@@ -26,11 +26,11 @@
     "service1item7": "Entwicklung von (Wettkampf-)Routinen",
     "service1item8": "Teambuilding & Konfliktmanagement",
     "service1item9": "Weitere persönliche Anliegen",
-    "service2": "Funktionelles Training",
+    "service2": "2. Funktionelles Training",
     "service2text": "Du möchtest auf klassische Art trainieren? Dann könnten folgende Inhalte für dich interessant sein:",
     "service2item1": "CrossFit & funktionelles Training für deine allgemeine Fitness und dein Wohlbefinden",
     "service2item2": "CrossFit & funktionelles Training ergänzend zu deiner spezifischen Sportart",
-    "service3": "Kombination aus 1 & 2",
+    "service3": "3. Kombination aus 1 & 2",
     "service3text": "Du hast Lust auf ganzheitliches, funktionelles Training? Dann könnte die Kombi aus Training und Sportpsychologie geeignet für dich sein.",
     "end": "Alle aufgeführten Leistungen sind sowohl im Einzel- als auch im Teamsetting möglich."
   },

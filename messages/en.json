@@ -15,7 +15,7 @@
   },
   "Service": {
     "title": "Services",
-    "service1": "Sports psychological training",
+    "service1": "1. Sports psychological training",
     "service1text": "Would you like to train sports psychological skills to optimally complement your sport? Then the following content could bring you closer to your goals:",
     "service1item1": "Learning and optimizing movement patterns through visualization",
     "service1item2": "Comeback after injuries",
@@ -26,11 +26,11 @@
     "service1item7": "Developing (competition) routines",
     "service1item8": "Team building & conflict management",
     "service1item9": "Other personal concerns",
-    "service2": "Functional training",
+    "service2": "2. Functional training",
     "service2text": "Would you like to train the classic way? Then the following content might be interesting for you:",
     "service2item1": "CrossFit & functional training for your overall fitness and well-being",
     "service2item2": "CrossFit & functional training as a complement to your specific sport",
-    "service3": "Combination of 1 & 2",
+    "service3": "3. Combination of 1 & 2",
     "service3text": "Are you interested in holistic, functional training? Then the combination of training and sports psychology could be something for you.",
     "end": "All listed services are possible in an individual and team setting."
   },

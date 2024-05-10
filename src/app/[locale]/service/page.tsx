@@ -16,7 +16,7 @@ export default function Service() {
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl  dark:text-zinc-100">
             {t('title')}
           </h1>
-          <div className="mt-6 space-y-7 text-xl text-zinc-600 dark:text-zinc-400">
+          <div className="mt-7 space-y-7 text-xl text-zinc-600 dark:text-zinc-100">
             {t('service1')}
           </div>
           <div className="text-l mt-3 space-y-7 text-zinc-600 dark:text-zinc-400">
@@ -33,7 +33,7 @@ export default function Service() {
             <li>{t('service1item8')}</li>
             <li>{t('service1item9')}</li>
           </ul>
-          <div className="mt-6 space-y-7 text-xl  text-zinc-600 dark:text-zinc-400">
+          <div className="mt-6 space-y-7 text-xl  text-zinc-600 dark:text-zinc-100">
             {t('service2')}
           </div>
           <div className="text-l mt-3 space-y-7 text-zinc-600 dark:text-zinc-400">
@@ -43,13 +43,13 @@ export default function Service() {
             <li>{t('service2item1')}</li>
             <li>{t('service2item2')}</li>
           </ul>
-          <div className="mt-6 space-y-7 text-xl  text-zinc-600 dark:text-zinc-400">
+          <div className="mt-6 space-y-7 text-xl  text-zinc-600 dark:text-zinc-100">
             {t('service3')}
           </div>
           <div className="text-l mt-3 space-y-7 text-zinc-600 dark:text-zinc-400">
             {t('service2text')}
           </div>
-          <div className="mt-6 space-y-7 text-xl text-zinc-600 dark:text-zinc-400">
+          <div className="text-l mt-6 space-y-7 text-zinc-600 dark:text-zinc-200">
             {t('end')}
           </div>
         </div>
