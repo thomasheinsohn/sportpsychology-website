@@ -1,5 +1,6 @@
 {
   "Home": {
+    "toptitle": "Sports psychologist Hanna Komes",
     "title": "Welcome to my website. I’m happy that you found your way here!",
     "subText": "Hanna Komes is an applied sports psychologist specializing in mental training and psychological support to optimize athletic performance. Her tailored approaches help athletes overcome barriers, boost resilience, and achieve long-term success.",
     "subtitle": "What is sports psychology?",
@@ -12,7 +13,7 @@
     "content3": "Since the beginning of 2024, I have been listed in the expert bank of the Arbeitsgemeinschaft für Sportpsychologie in Deutschland e.V., the standard for Sports psychology expertise in Germany, accepted by the German Olympic Sports Confederation (DOSB).",
     "subtitle": "My philosophy",
     "philosophy": "When working together, my priority is to stimulate shifts in perspective, foster growth, and facilitate development. This happens through a co-creative process where both sides actively contribute. Central to this dynamic is the establishment of trust and the assurance of confidentiality.",
-    "contact": "Contact me"
+    "contact": "Contact"
   },
   "Service": {
     "title": "Services",
