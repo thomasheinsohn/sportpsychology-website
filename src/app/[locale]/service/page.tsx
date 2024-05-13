@@ -6,12 +6,9 @@ import { Container } from '@/components/Container'
 export default function Service() {
   use(checkSession())
   const t = useTranslations('Service')
-  const list = t('service1list')
-  console.log(list)
   return (
     <Container className="mt-10 sm:mt-16">
-      <div className="gap-y-16 lg:gap-y-12">
-        <div className="max-w-xs px-2.5 lg:max-w-none"></div>
+      <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-[2fr_1fr] lg:grid-rows-[auto_1fr] lg:gap-y-12">
         <div className="lg:order-first lg:row-span-2">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl  dark:text-zinc-100">
             {t('title')}
@@ -53,6 +50,7 @@ export default function Service() {
             {t('end')}
           </div>
         </div>
+        <div></div>
       </div>
     </Container>
   )
