@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import clsx from 'clsx'
 import { Link } from '../../../../navigation'
-import { use } from 'react'
 import { Container } from '@/components/Container'
 import {
   InstagramIcon,
@@ -49,7 +48,6 @@ function MailIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
 }
 
 export default function Contact() {
-  use(checkSession())
   const t = useTranslations('Contact')
   return (
     <Container className="mt-10 sm:mt-16">
@@ -91,7 +89,7 @@ export default function Contact() {
             >
               hanna.komes@gmail.com
             </SocialLink>
-            <SocialLink
+            {/* <SocialLink
               href="#"
               icon={InstagramIcon}
               className=" mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
@@ -100,7 +98,7 @@ export default function Contact() {
             </SocialLink>
             <SocialLink href="#" icon={LinkedInIcon} className="mt-4">
               Follow on LinkedIn
-            </SocialLink>
+            </SocialLink> */}
           </ul>
         </div>
       </div>

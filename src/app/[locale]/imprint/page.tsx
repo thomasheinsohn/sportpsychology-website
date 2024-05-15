@@ -1,10 +1,7 @@
-import { use } from 'react'
 import { Container } from '@/components/Container'
 import { useTranslations } from 'next-intl'
-import { checkSession } from '../../../../lib'
 
 export default function Imprint() {
-  use(checkSession())
   const t = useTranslations('Imprint')
   return (
     <Container className="mt-10 sm:mt-16">

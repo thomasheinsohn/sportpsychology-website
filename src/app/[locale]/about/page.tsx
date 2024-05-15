@@ -1,9 +1,7 @@
 import Image from 'next/image'
-import { use } from 'react'
 import { Container } from '@/components/Container'
 import portraitImage from '@/images/hanna-color.jpeg'
 import { useTranslations } from 'next-intl'
-import { checkSession } from '../../../../lib'
 import { Link } from '../../../../navigation'
 
 function NavLink({
@@ -24,7 +22,6 @@ function NavLink({
 }
 
 export default function About() {
-  use(checkSession())
   const t = useTranslations('About')
   return (
     <Container className="mt-10 sm:mt-16">

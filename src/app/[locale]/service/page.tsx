@@ -1,10 +1,7 @@
-import { use } from 'react'
-import { checkSession } from '../../../../lib'
 import { useTranslations } from 'next-intl'
 import { Container } from '@/components/Container'
 
 export default function Service() {
-  use(checkSession())
   const t = useTranslations('Service')
   return (
     <Container className="mt-10 sm:mt-16">
