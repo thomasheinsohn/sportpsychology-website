@@ -6,9 +6,9 @@ import { Layout } from '@/components/Layout'
 import '@/styles/tailwind.css'
 
 export const metadata: Metadata = {
-  title: 'Sportpsychologie Berlin',
+  title: 'Sportpsychologie Berlin Hanna Komes Movementpsychologie',
   description:
-    'Hanna Komes is an applied sports psychologist specializing in mental training and psychological support to optimize athletic performance. Her tailored approaches help athletes overcome barriers, boost resilience, and achieve long-term success.',
+    'Ich bin Hanna Komes. Beruflich bin ich als Sportpsychologin und CrossFit-Trainerin unterwegs und begleite Menschen auf dem Weg zu ihren ganz persönlichen Zielen - movementpsychology.',
 }
 
 export default function RootLayout({
