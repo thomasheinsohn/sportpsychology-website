@@ -7,7 +7,7 @@ import '@/styles/tailwind.css'
 
 export const metadata: Metadata = {
   title:
-    'Sportpsychologin Hanna Komes in Berlin – Online & Vor Ort | Deutsch & Englisch',
+    'Sportpsychologin Hanna Komes in Berlin Online & Vor Ort | Deutsch & Englisch',
   description:
     'Entdecken Sie maßgeschneiderte sportpsychologische Trainings und funktionelles Training mit Hanna Komes in Berlin. Ob online oder persönlich – verbessern Sie Ihre Leistung durch Visualisierungstechniken, Überwindung von Verletzungen, Krisenmanagement, Teambuilding und mehr. Jetzt Beratung auf Deutsch oder Englisch vereinbaren!',
 }
