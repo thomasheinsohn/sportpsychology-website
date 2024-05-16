@@ -2,14 +2,9 @@ import Image from 'next/image'
 import clsx from 'clsx'
 import { Link } from '../../../../navigation'
 import { Container } from '@/components/Container'
-import {
-  InstagramIcon,
-  LinkedInIcon,
-  LocationPin,
-} from '@/components/SocialIcons'
+import { LinkedInIcon, LocationPin } from '@/components/SocialIcons'
 import portraitImage from '@/images/hanna.jpg'
 import { useTranslations } from 'next-intl'
-import { checkSession } from '../../../../lib'
 
 function SocialLink({
   className,
@@ -89,15 +84,15 @@ export default function Contact() {
             >
               hanna.komes@gmail.com
             </SocialLink>
-            {/* <SocialLink
-              href="#"
-              icon={InstagramIcon}
-              className=" mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
+            <SocialLink
+              href="https://www.linkedin.com/in/hanna-komes-590458234"
+              icon={LinkedInIcon}
+              className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
             >
-              Follow on Instagram
-            </SocialLink>
-            <SocialLink href="#" icon={LinkedInIcon} className="mt-4">
               Follow on LinkedIn
+            </SocialLink>
+            {/* <SocialLink href="#" icon={InstagramIcon} className="mt-4">
+              Follow on Instagram
             </SocialLink> */}
           </ul>
         </div>

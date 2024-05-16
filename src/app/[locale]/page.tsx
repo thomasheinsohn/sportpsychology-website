@@ -210,18 +210,19 @@ export default function Home() {
           <p className="mt-2 text-base text-zinc-600 dark:text-zinc-400">
             {t('subText')}
           </p>
-          {/* <div className="mt-6 flex gap-6">
-            <SocialLink
+          <div className="mt-6 flex gap-6">
+            {/* <SocialLink
               href="#"
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
-            />
+            /> */}
             <SocialLink
-              href="#"
+              target="_blank"
+              href="https://www.linkedin.com/in/hanna-komes-590458234"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
-          </div> */}
+          </div>
         </div>
       </Container>
       <Photos />

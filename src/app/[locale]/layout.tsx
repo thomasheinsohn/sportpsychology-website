@@ -6,9 +6,10 @@ import { Layout } from '@/components/Layout'
 import '@/styles/tailwind.css'
 
 export const metadata: Metadata = {
-  title: 'Sportpsychologie Berlin Hanna Komes Movementpsychologie',
+  title:
+    'Sportpsychologin Hanna Komes in Berlin – Online & Vor Ort | Deutsch & Englisch',
   description:
-    'Ich bin Hanna Komes. Beruflich bin ich als Sportpsychologin und CrossFit-Trainerin unterwegs und begleite Menschen auf dem Weg zu ihren ganz persönlichen Zielen - movementpsychology.',
+    'Entdecken Sie maßgeschneiderte sportpsychologische Trainings und funktionelles Training mit Hanna Komes in Berlin. Ob online oder persönlich – verbessern Sie Ihre Leistung durch Visualisierungstechniken, Überwindung von Verletzungen, Krisenmanagement, Teambuilding und mehr. Jetzt Beratung auf Deutsch oder Englisch vereinbaren!',
 }
 
 export default function RootLayout({
