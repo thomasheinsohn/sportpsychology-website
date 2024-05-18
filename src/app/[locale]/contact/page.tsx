@@ -89,7 +89,7 @@ export default function Contact() {
               icon={LinkedInIcon}
               className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
             >
-              Follow on LinkedIn
+              {t('linkedin')}
             </SocialLink>
             {/* <SocialLink href="#" icon={InstagramIcon} className="mt-4">
               Follow on Instagram
