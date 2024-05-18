@@ -201,7 +201,7 @@ export default function Home() {
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
             {t('toptitle')}
           </h1>
-          <div className="mt-6 text-3xl font-bold tracking-tight text-zinc-800 sm:text-4xl dark:text-zinc-100">
+          <div className="mt-6 text-2xl font-bold tracking-tight text-zinc-800  dark:text-zinc-100">
             Move with passion & purpose
           </div>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
