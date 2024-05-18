@@ -15,19 +15,27 @@ export default function Policy() {
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              Allgemeine Hinweise Die folgenden Hinweise geben einen einfachen
-              Überblick darüber, was mit Ihren personenbezogenen Daten passiert,
-              wenn Sie unsere Webseite besuchen. Personenbezogene Daten sind
-              alle Daten, mit denen Sie persönlich identifiziert werden können.
-              Ausführliche Informationen zum Thema Datenschutz entnehmen Sie
-              unserer unter diesem Text aufgeführten Datenschutzerklärung.
+              Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen
+              Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten
+              vertraulich und entsprechend der gesetzlichen
+              Datenschutzvorschriften sowie dieser Datenschutzerklärung. Die
+              Nutzung unserer Website ist in der Regel ohne Angabe
+              personenbezogener Daten möglich. Soweit auf unseren Seiten
+              personenbezogene Daten (beispielsweise Name, Anschrift oder
+              E-Mail-Adressen) erhoben werden, erfolgt dies, soweit möglich,
+              stets auf freiwilliger Basis. Diese Daten werden ohne Ihre
+              ausdrückliche Zustimmung nicht an Dritte weitergegeben. Wir weisen
+              darauf hin, dass die Datenübertragung im Internet (z.B. bei der
+              Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein
+              lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist
+              nicht möglich.
             </p>
-            <p>
+            {/* <p>
               Datenerfassung auf unserer Webseite Wer ist verantwortlich für die
               Datenerfassung auf dieser Webseite? Die Datenverarbeitung auf
               dieser Webseite erfolgt durch den Webseitenbetreiber. Dessen
               Kontaktdaten können Sie dem Impressum dieser Webseite entnehmen.
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

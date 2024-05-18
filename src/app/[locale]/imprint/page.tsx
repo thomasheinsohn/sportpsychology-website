@@ -13,20 +13,23 @@ export default function Imprint() {
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
             {t('title')}
           </h1>
-          <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
-            <p>
-              Seitenbetreiber: Max Mustermann Musterstraße 1 12345 Musterstadt
-              Deutschland
-            </p>
-            <p>
-              Kontakt: Telefon: 01234 56789 Telefax: 01234 56789-0 E-Mail:
-              info@musterwebseite.de
-            </p>
-            <p>Umsatzsteuer-Identifikationsnummer: DE123456789</p>
-            <p>
-              Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV: Max
-              Mustermann Adresse wie oben
-            </p>
+          <div className="mt-10 space-y-4 text-base text-zinc-600 dark:text-zinc-400">
+            <div className="font-bold">Seitenbetreiber:</div>
+            <p>Hanna Komes, Argentinische Allee 158, 14169 Berlin</p>
+          </div>
+          <div className="mt-10 space-y-4 text-base text-zinc-600 dark:text-zinc-400">
+            <div className="font-bold">Kontakt:</div>
+            <p>hanna.komes@gmail.com</p>
+          </div>
+          {/* <div className="mt-10 space-y-4 text-base text-zinc-600 dark:text-zinc-400">
+            <div className="font-bold">Umsatzsteuer-Identifikationsnummer:</div>
+            <p>65 771 230 847</p>
+          </div> */}
+          <div className="mt-10 space-y-4 text-base text-zinc-600 dark:text-zinc-400">
+            <div>
+              Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV: Hanna Komes
+              Adresse wie oben
+            </div>
           </div>
         </div>
       </div>
