@@ -46,7 +46,9 @@
     "linkedin": "Follow on LinkedIn"
   },
   "Header": {
-    "about": "About me"
+    "about": "About me",
+    "service": "Services",
+    "contact": "Contact"
   },
   "Imprint": {
     "title": "Imprint"

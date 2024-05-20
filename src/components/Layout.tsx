@@ -1,5 +1,6 @@
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
+import HeaderEntry from './HeaderEntry'
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -10,7 +11,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         </div>
       </div>
       <div className="relative flex w-full flex-col">
-        <Header />
+        <HeaderEntry />
         <main className="flex-auto">{children}</main>
         <Footer />
       </div>

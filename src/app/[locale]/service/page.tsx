@@ -10,10 +10,10 @@ export default function Service() {
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
             {t('title')}
           </h1>
-          <div className="mt-6 space-y-10 text-zinc-800 dark:text-zinc-100">
+          <div className="mt-6 space-y-6 text-zinc-800 dark:text-zinc-100">
             <div className="rounded-lg bg-gray-100 p-3 dark:bg-zinc-800">
               <div className="text-xl font-bold">{t('service1')}</div>
-              <div className="text-l mt-3 ">{t('service1text')}</div>
+              <div className="text-l mt-3">{t('service1text')}</div>
               <ul className="mt-3 list-inside list-disc text-base">
                 <li>{t('service1item1')}</li>
                 <li>{t('service1item2')}</li>

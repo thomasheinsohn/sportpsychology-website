@@ -35,9 +35,9 @@ export function LocationPin(props: React.ComponentPropsWithoutRef<'svg'>) {
       viewBox="0 0 24 24"
       // fill="white"
       // stroke="#919191"
-      stroke-width="2.25"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      // stroke-width="2.25"
+      // stroke-linecap="round"
+      // stroke-linejoin="round"
       className="lucide lucide-map-pin"
       aria-hidden="true"
       {...props}

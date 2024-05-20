@@ -47,9 +47,8 @@
   },
   "Header": {
     "about": "Über mich",
-    "1": "",
-    "2": "",
-    "3": ""
+    "service": "Leistungen",
+    "contact": "Kontakt"
   },
   "Imprint": {
     "title": "Impressum"
