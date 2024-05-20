@@ -1,9 +1,0 @@
-# *
-User-agent: *
-Allow: /
-
-# Host
-Host: https://www.movementpsychology.de
-
-# Sitemaps
-Sitemap: https://www.movementpsychology.de/sitemap.xml

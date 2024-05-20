@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next-sitemap",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -31,7 +31,6 @@
     "lucide-react": "^0.372.0",
     "next": "^14.0.4",
     "next-intl": "^3.11.3",
-    "next-sitemap": "^4.2.3",
     "next-themes": "^0.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
