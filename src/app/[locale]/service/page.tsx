@@ -10,50 +10,38 @@ export default function Service() {
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
             {t('title')}
           </h1>
-          <div className="rounded-lg bg-auto px-3  pb-1 ring-2 ring-inset ring-gray-200 dark:ring-zinc-700">
-            <div className="mt-7 space-y-7 text-xl font-bold text-zinc-800 dark:text-zinc-100">
-              {t('service1')}
+          <div className="mt-6 space-y-10 text-zinc-800 dark:text-zinc-100">
+            <div className="rounded-lg bg-gray-100 p-3 dark:bg-zinc-800">
+              <div className="text-xl font-bold">{t('service1')}</div>
+              <div className="text-l mt-3 ">{t('service1text')}</div>
+              <ul className="mt-3 list-inside list-disc text-base">
+                <li>{t('service1item1')}</li>
+                <li>{t('service1item2')}</li>
+                <li>{t('service1item3')}</li>
+                <li>{t('service1item4')}</li>
+                <li>{t('service1item5')}</li>
+                <li>{t('service1item6')}</li>
+                <li>{t('service1item7')}</li>
+                <li>{t('service1item8')}</li>
+                <li>{t('service1item9')}</li>
+              </ul>
             </div>
-            <div className="text-l mt-3 space-y-7 text-zinc-700 dark:text-zinc-400">
-              {t('service1text')}
+            <div className="rounded-lg bg-gray-100 p-3 dark:bg-zinc-800">
+              <div className="text-xl font-bold">{t('service2')}</div>
+              <div className="text-l mt-3">{t('service2text')}</div>
+              <ul className="mt-3 list-inside list-disc text-base">
+                <li>{t('service2item1')}</li>
+                <li>{t('service2item2')}</li>
+              </ul>
             </div>
-            <ul className="mt-3 list-inside list-disc text-base text-zinc-600 dark:text-zinc-400">
-              <li>{t('service1item1')}</li>
-              <li>{t('service1item2')}</li>
-              <li>{t('service1item3')}</li>
-              <li>{t('service1item4')}</li>
-              <li>{t('service1item5')}</li>
-              <li>{t('service1item6')}</li>
-              <li>{t('service1item7')}</li>
-              <li>{t('service1item8')}</li>
-              <li>{t('service1item9')}</li>
-            </ul>
-          </div>
-          <div className="rounded-lg bg-auto px-3 pb-1 ring-2 ring-inset ring-gray-200 dark:ring-zinc-700">
-            <div className="mt-6 space-y-7 text-xl font-bold text-zinc-800 dark:text-zinc-100">
-              {t('service2')}
+            <div className="rounded-lg bg-gray-100 p-3 dark:bg-zinc-800">
+              <div className="text-xl font-bold">{t('service3')}</div>
+              <div className="text-l mt-3">{t('service3text')}</div>
             </div>
-            <div className="text-l mt-3 space-y-7 text-zinc-700 dark:text-zinc-400">
-              {t('service2text')}
-            </div>
-            <ul className="mt-3 list-inside list-disc text-base text-zinc-600 dark:text-zinc-400">
-              <li>{t('service2item1')}</li>
-              <li>{t('service2item2')}</li>
-            </ul>
-          </div>
-          <div className="rounded-lg bg-auto px-3 pb-1 ring-2 ring-inset ring-gray-200 dark:ring-zinc-700">
-            <div className="mt-6 space-y-7 text-xl font-bold text-zinc-800 dark:text-zinc-100">
-              {t('service3')}
-            </div>
-            <div className="text-l mt-3 space-y-7 text-zinc-700 dark:text-zinc-400">
-              {t('service3text')}
-            </div>
-          </div>
-          <div className="text-l mt-8 space-y-7 text-zinc-800 dark:text-zinc-100">
-            {t('end')}
+            <div className="text-l mt-8 ">{t('end')}</div>
           </div>
         </div>
-        <div></div>
+        {/* <div className="lg:space-y-20">Kontakt</div> */}
       </div>
     </Container>
   )
