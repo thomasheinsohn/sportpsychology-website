@@ -35,7 +35,8 @@
     "service2item2": "CrossFit & functional training as a complement to your specific sport",
     "service3": "3. Combination of 1 & 2",
     "service3text": "Are you interested in holistic, functional training? Then the combination of training and sports psychology could be something for you.",
-    "end": "All listed services are possible in an individual and team setting."
+    "end": "All listed services are possible in an individual and team setting.",
+    "contact": "Get in Touch Now"
   },
   "Contact": {
     "title": "Contact",
@@ -43,7 +44,8 @@
     "text2": "Sports psychology is more than just theory. It involves using practical tools that optimally align body and mind, thus helping to maximize your performance and fully realize your potential. Through individually tailored strategies such as mental strengthening, stress management, and concentration enhancement, I offer support that is precisely aligned with the requirements of your sport.",
     "text3": "Don't live in Berlin? No problem! With the option of digital support, I am flexible and can support you, no matter where you are. This makes it possible to work together on your athletic and psychological goals, even if we are not in the same room.",
     "text4": "Book an appointment today for an initial consultation, and let's find a path to your peak performance together.",
-    "linkedin": "Follow on LinkedIn"
+    "linkedin": "Follow on LinkedIn",
+    "phone": "Reachable via phone"
   },
   "Header": {
     "about": "About me",

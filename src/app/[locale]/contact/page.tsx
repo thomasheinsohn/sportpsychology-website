@@ -2,7 +2,7 @@ import Image from 'next/image'
 import clsx from 'clsx'
 import { Link } from '../../../../navigation'
 import { Container } from '@/components/Container'
-import { LinkedInIcon, LocationPin } from '@/components/SocialIcons'
+import { LinkedInIcon, LocationPin, PhoneIcon } from '@/components/SocialIcons'
 import portraitImage from '@/images/hanna.jpg'
 import { useTranslations } from 'next-intl'
 
@@ -54,6 +54,7 @@ export default function Contact() {
               alt=""
               sizes="(min-width: 1024px) 32rem, 20rem"
               className="aspect-square rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
+              priority={true}
             />
           </div>
         </div>
@@ -84,10 +85,13 @@ export default function Contact() {
             >
               hanna.komes@gmail.com
             </SocialLink>
+            <SocialLink href="" icon={PhoneIcon} className="mt-4">
+              {t('phone')}
+            </SocialLink>
             <SocialLink
               href="https://www.linkedin.com/in/hanna-komes-590458234"
               icon={LinkedInIcon}
-              className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
+              className="mt-6 border-t border-zinc-100 pt-6 dark:border-zinc-700/40"
             >
               {t('linkedin')}
             </SocialLink>

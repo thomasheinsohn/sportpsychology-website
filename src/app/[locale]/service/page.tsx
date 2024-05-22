@@ -1,5 +1,23 @@
 import { useTranslations } from 'next-intl'
 import { Container } from '@/components/Container'
+import { Link } from '../../../../navigation'
+
+function NavLink({
+  href,
+  children,
+}: {
+  href: string
+  children: React.ReactNode
+}) {
+  return (
+    <Link
+      href={href}
+      className="transition hover:text-sky-500 dark:hover:text-sky-400"
+    >
+      {children}
+    </Link>
+  )
+}
 
 export default function Service() {
   const t = useTranslations('Service')
@@ -39,9 +57,14 @@ export default function Service() {
               <div className="text-l mt-3">{t('service3text')}</div>
             </div>
             <div className="text-l mt-8 ">{t('end')}</div>
+            <button
+              type="button"
+              className="group justify-around rounded-full bg-gray-100 px-3 py-2 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur transition dark:bg-zinc-800 dark:ring-white/10 dark:hover:ring-white/20"
+            >
+              <NavLink href="/contact">{t('contact')}</NavLink>
+            </button>
           </div>
         </div>
-        {/* <div className="lg:space-y-20">Kontakt</div> */}
       </div>
     </Container>
   )

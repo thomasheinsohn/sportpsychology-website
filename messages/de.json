@@ -35,7 +35,8 @@
     "service2item2": "CrossFit & funktionelles Training ergänzend zu deiner spezifischen Sportart",
     "service3": "3. Kombination aus 1 & 2",
     "service3text": "Du hast Lust auf ganzheitliches, funktionelles Training? Dann könnte die Kombi aus Training und Sportpsychologie geeignet für dich sein.",
-    "end": "Alle aufgeführten Leistungen sind sowohl im Einzel- als auch im Teamsetting möglich."
+    "end": "Alle aufgeführten Leistungen sind sowohl im Einzel- als auch im Teamsetting möglich.",
+    "contact": "Hier entlang zum Kontakt"
   },
   "Contact": {
     "title": "Kontakt",
@@ -43,7 +44,8 @@
     "text2": "Sportpsychologie ist mehr als nur Theorie. Es geht darum, praktische Werkzeuge zu nutzen, die Körper und Geist optimal aufeinander abstimmen und so helfen, deine Leistung zu maximieren und dein volles Potenzial auszuschöpfen. Durch individuell angepasste Strategien wie mentale Stärkung, Stressbewältigung und Konzentrationsförderung, biete ich Unterstützung, die genau auf die Anforderungen deiner Sportart abgestimmt ist.",
     "text3": "Du wohnst nicht in Berlin? Kein Problem! Durch die Möglichkeit der digitalen Betreuung bin ich flexibel und kann dich unterstützen, egal wo du bist. So ist es möglich, gemeinsam an deinen sportlichen und psychologischen Zielen zu arbeiten, auch wenn wir nicht im selben Raum sind.",
     "text4": "Vereinbare noch heute einen Termin für ein Erstgespräch, und lass uns zusammen einen Weg zu deinen Höchstleistungen finden.",
-    "linkedin": "Folge auf LinkedIn"
+    "linkedin": "Folge auf LinkedIn",
+    "phone": "Telefonisch erreichbar"
   },
   "Header": {
     "about": "Über mich",
