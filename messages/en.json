@@ -48,6 +48,7 @@
     "phone": "Reachable via phone"
   },
   "Header": {
+    "menu": "Menu",
     "about": "About me",
     "service": "Services",
     "contact": "Contact"
