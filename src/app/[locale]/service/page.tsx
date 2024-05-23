@@ -29,7 +29,7 @@ export default function Service() {
             {t('title')}
           </h1>
           <div className="mt-6 space-y-6 text-zinc-800 dark:text-zinc-100">
-            <div className="rounded-lg bg-gray-100 p-3 dark:bg-zinc-800">
+            <div className="rounded-lg bg-gray-50 p-3 dark:bg-zinc-800">
               <div className="text-xl font-bold">{t('service1')}</div>
               <div className="text-l mt-3">{t('service1text')}</div>
               <ul className="mt-3 list-inside list-disc text-base">
@@ -44,7 +44,7 @@ export default function Service() {
                 <li>{t('service1item9')}</li>
               </ul>
             </div>
-            <div className="rounded-lg bg-gray-100 p-3 dark:bg-zinc-800">
+            <div className="rounded-lg bg-gray-50 p-3 dark:bg-zinc-800">
               <div className="text-xl font-bold">{t('service2')}</div>
               <div className="text-l mt-3">{t('service2text')}</div>
               <ul className="mt-3 list-inside list-disc text-base">
@@ -52,14 +52,14 @@ export default function Service() {
                 <li>{t('service2item2')}</li>
               </ul>
             </div>
-            <div className="rounded-lg bg-gray-100 p-3 dark:bg-zinc-800">
+            <div className="rounded-lg bg-gray-50 p-3 dark:bg-zinc-800">
               <div className="text-xl font-bold">{t('service3')}</div>
               <div className="text-l mt-3">{t('service3text')}</div>
             </div>
             <div className="text-l mt-8 ">{t('end')}</div>
             <button
               type="button"
-              className="group justify-around rounded-full bg-gray-100 px-3 py-2 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur transition dark:bg-zinc-800 dark:ring-white/10 dark:hover:ring-white/20"
+              className="group justify-around rounded-full bg-gray-200 px-3 py-2 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur transition dark:bg-zinc-700 dark:ring-white/10 dark:hover:ring-white/20"
             >
               <NavLink href="/contact">{t('contact')}</NavLink>
             </button>
