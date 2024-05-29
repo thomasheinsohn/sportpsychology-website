@@ -74,9 +74,9 @@ export default function Contact() {
             <SocialLink href="mailto:hanna.komes@gmail.com" icon={MailIcon}>
               {t('mail')}
             </SocialLink>
-            <SocialLink href="" icon={PhoneIcon} className="mt-4">
+            {/* <SocialLink href="" icon={PhoneIcon} className="mt-4">
               {t('phone')}
-            </SocialLink>
+            </SocialLink> */}
             <SocialLink
               icon={LocationPin}
               href="https://maps.app.goo.gl/fsEh1zjDQdXveVdr8?g_st=ia"
