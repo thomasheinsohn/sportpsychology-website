@@ -71,22 +71,18 @@ export default function Contact() {
         </div>
         <div className="lg:pl-20">
           <ul role="list">
-            <SocialLink
-              icon={LocationPin}
-              href="https://maps.app.goo.gl/fsEh1zjDQdXveVdr8?g_st=ia"
-              className=""
-            >
-              Berlin, Wilmersdorf
-            </SocialLink>
-            <SocialLink
-              href="mailto:hanna.komes@gmail.com"
-              icon={MailIcon}
-              className="mt-4"
-            >
-              hanna.komes@gmail.com
+            <SocialLink href="mailto:hanna.komes@gmail.com" icon={MailIcon}>
+              {t('mail')}
             </SocialLink>
             <SocialLink href="" icon={PhoneIcon} className="mt-4">
               {t('phone')}
+            </SocialLink>
+            <SocialLink
+              icon={LocationPin}
+              href="https://maps.app.goo.gl/fsEh1zjDQdXveVdr8?g_st=ia"
+              className="mt-4"
+            >
+              Berlin, Wilmersdorf
             </SocialLink>
             <SocialLink
               href="https://www.linkedin.com/in/hanna-komes-590458234"
