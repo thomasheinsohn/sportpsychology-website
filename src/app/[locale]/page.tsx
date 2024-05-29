@@ -60,6 +60,9 @@ export default function Home() {
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
             {t('toptitle')}
           </h1>
+          <div className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
+            {t('toptitle2')}
+          </div>
           <div className="mt-6 text-2xl font-semibold tracking-tight text-zinc-800  dark:text-zinc-100">
             Move with passion & purpose
           </div>

@@ -64,7 +64,6 @@ export default function Contact() {
           </h1>
           <div className="mt-6 space-y-3 text-base text-zinc-600 dark:text-zinc-400">
             <p>{t('text1')}</p>
-            <p>{t('text2')}</p>
             <p>{t('text3')}</p>
             <p>{t('text4')}</p>
           </div>
