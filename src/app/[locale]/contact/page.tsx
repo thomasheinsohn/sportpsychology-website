@@ -78,7 +78,7 @@ export default function Contact() {
             </SocialLink> */}
             <SocialLink
               icon={LocationPin}
-              href="https://maps.app.goo.gl/fsEh1zjDQdXveVdr8?g_st=ia"
+              href="https://maps.app.goo.gl/wKSygZPbT6w5RB6F7"
               className="mt-4"
             >
               Berlin, Wilmersdorf
