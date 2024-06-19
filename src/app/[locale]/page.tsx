@@ -5,9 +5,9 @@ import { Link } from '../../../navigation'
 
 import { Container } from '@/components/Container'
 import { InstagramIcon, LinkedInIcon } from '@/components/SocialIcons'
-import art from '@/images/photos/runner-art.jpeg'
+import art from '@/images/photos/runner.jpeg'
 import weight from '@/images/photos/weight.jpg'
-import runner from '@/images/photos/runner.jpeg'
+import runner from '@/images/hanna-front.jpeg'
 import mountain from '@/images/photos/mountain.jpeg'
 import tennis from '@/images/photos/tennis.jpeg'
 
