@@ -1,11 +1,13 @@
 {
   "Home": {
-    "toptitle": "Sportpsychologie Berlin",
+    "toptitle": "Sportpsychologie & CrossFit-Training Berlin bei Hanna Komes",
     "toptitle2": "Hanna Komes",
     "title": "Willkommen auf meiner Webseite. Schön, dass du den Weg zu mir gefunden hast!",
     "subText": "Ich bin Hanna Komes. Beruflich bin ich als Sportpsychologin und CrossFit-Trainerin unterwegs und begleite Menschen auf dem Weg zu ihren ganz persönlichen Zielen.",
     "subtitle": "Was ist Sportpsychologie?",
-    "mainText": "Sportpsychologisches Training unterstützt Körper und Geist dabei, optimal zusammenzuarbeiten, um leistungsfähiger zu sein und Potenziale auszuschöpfen. Durch gezieltes, individuelles und fundiertes Training kann die Sportpsychologie eine wirkungsvolle Ergänzung für jede Sportart sein."
+    "mainText": "Sportpsychologisches Training unterstützt Körper und Geist dabei, optimal zusammenzuarbeiten, um leistungsfähiger zu sein und Potenziale auszuschöpfen. Durch gezieltes, individuelles und fundiertes Training kann die Sportpsychologie eine wirkungsvolle Ergänzung für jede Sportart sein.",
+    "crossfit": "Was ist CrossFit?",
+    "mainCrossfit": "CrossFit ist eine ganzheitliche Trainingsart, die den gesamten Körper trainiert und abwechslungsreiche Elemente aus dem Kraft-, Eigengewichts- und Ausdauertraining kombiniert, um eine umfassende Fitness zu entwickeln. Übungen mit dem eigenen Körpergewicht wie Laufen oder Liegestütze können hierbei genauso auf dem Programm stehen wie Ausfallschritte mit Kurzhanteln oder Kniebeugen mit einer Langhantel. Egal, ob du Anfänger:in oder Fortgeschrittene:r bist - beim CrossFit ist für alle etwas dabei!"
   },
   "About": {
     "title": "Über mich",

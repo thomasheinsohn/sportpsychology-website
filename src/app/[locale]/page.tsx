@@ -60,9 +60,9 @@ export default function Home() {
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
             {t('toptitle')}
           </h1>
-          <div className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
+          {/* <div className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
             {t('toptitle2')}
-          </div>
+          </div> */}
           <div className="mt-6 text-2xl font-semibold tracking-tight text-zinc-800  dark:text-zinc-100">
             Move with passion & purpose
           </div>
@@ -95,6 +95,10 @@ export default function Home() {
               {t('subtitle')}
             </h1>
             <div>{t('mainText')}</div>
+            <h1 className="mt-4 text-2xl font-bold tracking-tight text-zinc-800 sm:text-3xl dark:text-zinc-100">
+              {t('crossfit')}
+            </h1>
+            <div>{t('mainCrossfit')}</div>
           </div>
         </div>
       </Container>

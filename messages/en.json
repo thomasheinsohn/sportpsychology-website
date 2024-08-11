@@ -1,11 +1,13 @@
 {
   "Home": {
-    "toptitle": "Sports psychology Berlin",
+    "toptitle": "Sports psychology & CrossFit-Training Berlin with Hanna Komes",
     "toptitle2": "Hanna Komes",
     "title": "Welcome to my website. I’m happy that you found your way here!",
     "subText": "Hanna Komes is an applied sports psychologist specializing in mental training and psychological support to optimize athletic performance. Her tailored approaches help athletes overcome barriers, boost resilience, and achieve long-term success.",
     "subtitle": "What is sports psychology?",
-    "mainText": "Sports psychological training fosters optimal collaboration between the body and mind to elevate athletic performance. With targeted, individualized, and evidence-based methods, sports psychology proves to be a valuable complement to any sport."
+    "mainText": "Sports psychological training fosters optimal collaboration between the body and mind to elevate athletic performance. With targeted, individualized, and evidence-based methods, sports psychology proves to be a valuable complement to any sport.",
+    "crossfit": "What is CrossFit?",
+    "mainCrossfit": "CrossFit is a holistic training method that works the entire body by combining diverse elements from strength, bodyweight, and endurance training to develop comprehensive fitness. Exercises using your own body weight, such as running or push-ups, can be included just as much as lunges with dumbbells or squats with a barbell. Whether you're a beginner or an advanced athlete, CrossFit has something for everyone!"
   },
   "About": {
     "title": "About me",
