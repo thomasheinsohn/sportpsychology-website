@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { Container } from '@/components/Container'
-import portraitImage from '@/images/hanna-color.jpeg'
+import portraitImage from '@/images/hanna-front.jpeg'
 import { useTranslations } from 'next-intl'
 import { Link } from '../../../../navigation'
 
